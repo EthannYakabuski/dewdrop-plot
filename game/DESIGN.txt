@@ -1,0 +1,50 @@
+DEWDROP PLOT - CORE DESIGN
+
+Portrait Godot 4.5.1 Compatibility, 540x960 logical canvas. Tiny Farm 16px art is
+displayed with nearest filtering. Original code-native canals and effects match it.
+
+The core decision is scarce-water allocation to a specific harvest order. A bed
+marked + was included in the authored order; hollow-circle beds are optional and
+can substitute when their crop type is requested, but also consume precious water.
+Channel drawing, erasing, undo, reset, retries and normal progression are free.
+
+Simulation: channels form an undirected orthogonal graph. Rocks and closed gates
+block traversal. Each connected tank component pools its supply exactly once.
+Reachable beds drink by shortest distance from the nearest tank, ties by cell index
+(top-left to bottom-right). A partially watered bed spends its available water but
+does not harvest. Channels themselves do not consume water. Used + reserve = supply
+for every component and every pulse. This is deterministic graph allocation, not
+fluid physics. The UI shows costs before release and consumption after release.
+
+60 stored distinct arrangements span six ten-plot chapters. Two early tutorials,
+then rocks, wider crop orders, gates and two-tank puzzles appear gradually. Every
+stored witness is checked by the exact production simulate() method. First-clear
+and improved-star rewards are idempotent; replays never farm the same reward.
+
+Stars: deliver the order; retain the visible reserve target; use no more than the
+authored channel target. A sponsored route hint marks the entire attempt assisted,
+including undo/reset/save/load. Only unassisted three-star attempts count toward
+the efficiency board. Earned callbacks are nonce-checked, single-use and scoped
+to the current attempt. No native ad availability means no reward or fake benefit.
+
+Grower XP/level with one-time level coin bonuses, four cosmetic palettes, daily
+curated plot/quests and seven-day login coins. UTC date rollback does not reopen
+claimed rewards. Daily completion does not bypass campaign unlocks. Local save uses
+temporary replacement plus a previous-save backup, bounded loading and draft plans.
+
+18 symbolic achievements and 4 boards are declared in game/catalog.json. Optional
+/root/Services is accessed defensively. Home content refits to the actual native
+banner/safe-area reserve, using stage screen-transform units and a change signal;
+active puzzles are never rebuilt by that signal. round_finished fires only at
+successful result transitions. The shared
+adapter supplies the deliberate every-two-round interstitial cadence. Services,
+addons, export/CI/marketing and production backend configuration are coordinator
+owned. Web keeps the full local game and does not simulate native ad completion.
+
+Actual-source capture flags after --: --demo --view=home|play|levels|daily|garden|
+journal|settings|result --capture=ABSOLUTE.png. Demo never loads/saves player progress
+and never submits service progress. --demo --runtime-smoke tests actual viewport
+touch dispatch, a release-button click, animation, receipt and secondary screens.
+
+Future DLC: Greenhouse Seasons, 20 greenhouse plots with valves, phased watering
+and new cosmetic crop families. No DLC content is required to finish this release.

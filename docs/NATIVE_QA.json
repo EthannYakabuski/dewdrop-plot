@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "game": "Dewdrop Plot",
+  "package": "com.ethannyakabuski.dewdropplot",
+  "status": "LOCAL_NATIVE_FUNCTIONAL_QA_ACCEPTED_WITH_LIMITATIONS",
+  "scope": "Public summary only; private runtime ledgers, SDK logs, machine records, real saves and private evidence coordinates are omitted.",
+  "tested_android_apk": {
+    "sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+    "bytes": 183851862
+  },
+  "normal_installation": "Fresh ordinary save established through normal play; no preinstall retention or save injection claimed.",
+  "actual_gameplay": [
+    "First ordinary plot used4channels, saved1drop and earned3stars/40coins/35XP.",
+    "A genuine earned hint removed one wrong edge, marked the attempt assisted/hint-used and changed neither wallet nor other saved groups immediately. It did not auto-complete the puzzle.",
+    "Repeated Hint in the same attempt did not present/earn again. Undo restored the wrong edge; Reset emptied the route while retaining assistance flags. Assisted replay paid0coins/XP and preserved the earlier unassisted-perfect record.",
+    "Two actual successful nonempty results in one process produced a real between-round interstitial; dismissal did not change banked progress.",
+    "Current-day Daily paid80coins/55XP plus30coin level bonus. Completed replay paid0 and preserved all20typedgroups. Login20coins and the two-plots checklist35coins paid once; repeated controls were disabled.",
+    "One Android Back from unfinished puzzle returned Home and preserved all20savedgroups including the internal draft. Home itself preserves the stored draft; a subsequent Grow Next or Plots entry starts fresh. There is no visible Resume Draft route."
+  ],
+  "offline_and_retention": {
+    "all20_typed_groups_retained_at_cold_and_final_restart": true,
+    "unbanked_ordinary_planning": "Phone saved4ordinarychannels; two logical-tablet profiles each saved1channel. No payout/record/harvest/water gain was claimed.",
+    "completion_qualification": "The original automation record was interrupted. Its completed phone roles were preserved; a separate bounded manual remainder completed the six outstanding tablet roles, actual restart and restoration. Original automation completion is not claimed.",
+    "final_state_summary": "285coins/90XP, one recorded campaign plot/3stars/5beds/3drops; this is a summary, not a distributed profile.",
+    "network_display_restored_and_game_safely_stopped": true
+  },
+  "captures": {
+    "count": 9,
+    "roles": "Ordinary Home/planning/Journal views, three profiles each.",
+    "pixel_processing": "Original guest PNGs only; no crop/resize/rotation or fixture.",
+    "qualification": "Temporary same-size inspection copies addressed an image-tool display discrepancy. Only unchanged original PNGs are packaged; no app black-frame defect was established.",
+    "individual_operator_visual_approval": true
+  },
+  "online_home": "Actual320x50Google test banner and all6controls clear; transient system notification excluded from store selection.",
+  "limits": [
+    "Native SDK early-unearned/early-dismiss branch remains unverified. No forced callback, blind close or offline-unavailable substitute establishes that branch.",
+    "One Android11/API30 x86 emulator supplied phone and logical-tablet layouts; no physical phone/tablet acceptance.",
+    "Emulator audio disabled. Audible output, interactive Web/audio/WebGL, production services, human puzzle balance/content and broad ad-fill reliability unverified.",
+    "Midnight rollover and multi-day progression were not verified.",
+    "Godot4.5.1 Compatibility used minAPI24/targetAPI35 due actual export constraints; this is not current Google Play release eligibility."
+  ]
+}

@@ -1,0 +1,57 @@
+DEWDROP PLOT - CORE VERIFICATION
+Date: 2026-10-20
+Engine: Godot 4.5.1 stable official f62fdbde1, Compatibility renderer.
+
+PASS: canonical editor import with coordinator Services/Play Games autoloads and
+native plugins present. No script parse errors. Existing configuration preserved.
+Command: Godot --headless --editor --path PROJECT --import --quit
+
+PASS: canonical deterministic model suite, 4,107 checks, zero failures.
+Command: Godot --headless --path PROJECT --script tests/test_model.gd
+All 60 distinct stored plot witnesses solve under the exact production simulator
+with three stars. Tests also cover every witness edge/cell, rocks, closed/open
+gates, pooled/disconnected tanks, partial crop watering, deterministic tie order,
+per-component/global water conservation, optional-bed scarcity, full sequential
+campaign completion, star/XP/coin/cosmetic accounting, assisted efficiency exclusion,
+earned hint callback nonce/idempotence/stale-attempt rejection, free draw/erase/
+undo/reset, daily/login/quest repetition and backward-date rejection, bounded save
+loading, actual isolated test-file persistence and previous-save backup recovery.
+
+PASS: canonical menu layout suite, 42 checks, zero failures.
+Command: Godot --headless --path PROJECT --script tests/test_menu_layout.gd
+Actual main scene subclass uses a no-ad/no-reward service fixture supplying the
+160/180 logical menu reserves observed in native QA. Tests measure actual button
+geometry/hit height, assert no overlap with reservation, preserve home identity
+on a reserve signal, retain an active board and graph on that signal, and restore
+full home size when the reserve becomes zero. The queried stage transform remains
+independent of home_content fitting. This tests geometry, not Android SDK behavior.
+
+PASS: canonical actual scene UI smoke, clean exit with no resource-leak warnings.
+Command: Godot --headless --path PROJECT --script tests/test_ui.gd
+Output: DEWDROP_UI_SMOKE_OK: actual touch routing, release button, pulse, receipt,
+daily, garden and journal
+Real screen-touch and drag events are injected through viewport GUI dispatch;
+the Release Water button is clicked through that dispatch. This builds the real
+channel graph, animates the production result and opens the real harvest receipt.
+The UI test has a 12-second watchdog; menu test has a 10-second watchdog. Both use
+process deadlines rather than leaked pending timers. Model test files are isolated
+and removed after verification. Demo never loads/saves player or service progress.
+
+PASS: eight actual GPU-rendered canonical viewport captures, 540x960 pixels.
+Environment: OpenGL 3.3, NVIDIA GeForce GT 1030, driver 560.94, Compatibility.
+All exited zero without stderr warnings/errors. PNGs under tests/evidence:
+core-home.png, core-play.png, core-levels.png, core-daily.png, core-garden.png,
+core-journal.png, core-settings.png, core-result.png.
+Command: Godot --path PROJECT --resolution 540x960 --max-fps 60 --quit-after 600 -- --demo --view=VIEW --capture=ABSOLUTE.png
+Visual review covered crop cost/order labels, source budgets, visible star targets,
+channel/gate clarity, home actions, levels/scrolling, daily claims, cosmetic rows,
+journal markers, result conservation and wrapped native-service status. Evidence
+folder .gdignore prevents screenshot resources entering the shipped game pack.
+These show running source with deterministic demo state; they are not Windows
+exports, Android/device captures, mockups or production-service proof.
+
+Coordinator-owned checks still required: Android export/build/install and actual
+device touch/back/pause/resume/performance/banner behavior; Web export/browser
+input/audio/persistence and native-unavailable behavior; consent and earned ad
+callbacks, real Play Games/backend IDs, signing, public CI/Pages and release QA.
+No production-service or final Android/Web acceptance is claimed by core tests.

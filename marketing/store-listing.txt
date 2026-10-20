@@ -1,0 +1,26 @@
+Dewdrop Plot
+
+SHORT DESCRIPTION (75/80 characters)
+Plan clever water routes, grow a little harvest, and make every drop count.
+
+LONG DESCRIPTION
+A little water can make a lovely harvest.
+
+Dewdrop Plot is a bright irrigation puzzle about choosing where a limited supply should go. Draw channels from a reservoir through crop beds, check what the harvest order needs, and release one clear watering pulse. Every bed has a visible cost, and not every thirsty corner needs watering.
+
+Solve 60 small plots across six chapters. Learn the tools in two tutorial plots, then work around rocks, set gates, and connect gardens with two reservoirs. Watch the water follow your route and see which crops make it into the basket.
+
+Plan at your own pace with free edits, undo, reset and retries. A successful harvest earns grower experience and stars, while cosmetic palettes bring a little color to your allotment. Chase unassisted three-star records or enjoy the daily challenge and harvest goals.
+
+Your progress saves locally and core gardening works offline. The pleasure is in a clear plan, a well-used drop, and a patch of green that blooms because you thought it through.
+
+The Android edition supports an optional earned route hint and ads between finished plots. Assisted attempts are excluded from efficiency records. Google Play Games achievements and leaderboards depend on sign-in and final configuration. The Web edition keeps local play without simulating earned-ad rewards.
+
+CATEGORY
+GAME_PUZZLE
+
+SUGGESTED TAGS
+Puzzle, Logic, Farming, Single player, Offline
+
+PUBLICATION NOTE
+This is store copy for the implemented candidate, not a claim of publication or production-service verification. Check feature claims against the final build before uploading. The owner completes backend configuration, final testing, privacy/Data safety declarations, audience/content-rating questionnaires, support/privacy URLs, and Google Play publication.

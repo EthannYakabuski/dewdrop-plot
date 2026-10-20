@@ -1,0 +1,30 @@
+Dewdrop Plot
+A small garden. A clever little drop.
+
+INTRODUCTION
+Dewdrop Plot is a bright irrigation puzzle about choosing where a limited supply should go. Draw channels from a reservoir through crop beds, check what the harvest order needs, and release one clear watering pulse. Every bed has a visible cost, and not every thirsty corner needs watering.
+
+LITTLE LORE
+At the edge of the allotments, the morning tank is full and the harvest baskets are waiting. A careful route can turn a small reserve into a bright patch of plenty.
+
+SEO META TITLE
+Dewdrop Plot | Water & Harvest Puzzles
+
+SEO META DESCRIPTION
+Draw water channels, choose a harvest and solve 60 garden puzzles. Limited supply, gates and crop costs make every drop a thoughtful little decision.
+
+THREE SELLING CARDS
+One tank, a clever little garden
+Each crop bed needs a visible amount of water. Choose the harvest that matters and plan within the supply.
+
+Draw the route, then watch it bloom
+Sketch channels, set the gates, and release a single watering pulse through your plan. Undo, reset and retry freely.
+
+Harvest more by wasting less
+Solve 60 plots, grow your experience, and chase unassisted three-star records. A daily challenge brings a fresh little goal.
+
+TECHNICAL INFORMATION
+Made with Godot 4.5.1 Compatibility. Portrait Android is primary, with single-threaded Web support. Local saves keep core puzzles available offline. Native Google Play Games and ad services require final owner configuration and real-service/device checks. Web uses graceful unavailable-service behavior and never simulates earned rewards. Original work is Apache-2.0; supplied Kenney source art retains its CC0 notice.
+
+FUTURE CONTENT IDEA (NOT IMPLEMENTED)
+Greenhouse Seasons: 20 greenhouse plots with valves, phased watering and cosmetic crops.

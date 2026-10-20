@@ -1,0 +1,199 @@
+{
+  "title": "Dewdrop Plot",
+  "short_description": "Plan clever water routes, grow a little harvest, and make every drop count.",
+  "long_description": "A little water can make a lovely harvest.\n\nDewdrop Plot is a bright irrigation puzzle about choosing where a limited supply should go. Draw channels from a reservoir through crop beds, check what the harvest order needs, and release one clear watering pulse. Every bed has a visible cost, and not every thirsty corner needs watering.\n\nSolve 60 small plots across six chapters. Learn the tools in two tutorial plots, then work around rocks, set gates, and connect gardens with two reservoirs. Watch the water follow your route and see which crops make it into the basket.\n\nPlan at your own pace with free edits, undo, reset and retries. A successful harvest earns grower experience and stars, while cosmetic palettes bring a little color to your allotment. Chase unassisted three-star records or enjoy the daily challenge and harvest goals.\n\nYour progress saves locally and core gardening works offline. The pleasure is in a clear plan, a well-used drop, and a patch of green that blooms because you thought it through.\n\nThe Android edition supports an optional earned route hint and ads between finished plots. Assisted attempts are excluded from efficiency records. Google Play Games achievements and leaderboards depend on sign-in and final configuration. The Web edition keeps local play without simulating earned-ad rewards.",
+  "category": "GAME_PUZZLE",
+  "suggested_tags": [
+    "Puzzle",
+    "Logic",
+    "Farming",
+    "Single player",
+    "Offline"
+  ],
+  "orientation": "portrait",
+  "developer": "EthannYakabuski",
+  "target_platforms": [
+    "Android",
+    "Web where feasible"
+  ],
+  "feature_graphic": "feature-graphic-1024x500.png",
+  "app_icon": "app-icon-512.png",
+  "achievement_icons": [
+    {
+      "key": "dew_first",
+      "name": "First green shoot",
+      "description": "Complete your first plot.",
+      "threshold": 1,
+      "metric": "plots",
+      "file": "achievements/dew_first.png"
+    },
+    {
+      "key": "dew_ten",
+      "name": "A growing habit",
+      "description": "Complete 10 different plots.",
+      "threshold": 10,
+      "metric": "plots",
+      "file": "achievements/dew_ten.png"
+    },
+    {
+      "key": "dew_thirty",
+      "name": "Allotment keeper",
+      "description": "Complete 30 different plots.",
+      "threshold": 30,
+      "metric": "plots",
+      "file": "achievements/dew_thirty.png"
+    },
+    {
+      "key": "dew_sixty",
+      "name": "Festival grower",
+      "description": "Complete all 60 plots.",
+      "threshold": 60,
+      "metric": "plots",
+      "file": "achievements/dew_sixty.png"
+    },
+    {
+      "key": "dew_stars_30",
+      "name": "Golden morning",
+      "description": "Earn 30 plot stars.",
+      "threshold": 30,
+      "metric": "stars",
+      "file": "achievements/dew_stars_30.png"
+    },
+    {
+      "key": "dew_stars_100",
+      "name": "A bright season",
+      "description": "Earn 100 plot stars.",
+      "threshold": 100,
+      "metric": "stars",
+      "file": "achievements/dew_stars_100.png"
+    },
+    {
+      "key": "dew_conserve_10",
+      "name": "Every drop matters",
+      "description": "Save 10 units of water on first clears.",
+      "threshold": 10,
+      "metric": "saved_water",
+      "file": "achievements/dew_conserve_10.png"
+    },
+    {
+      "key": "dew_conserve_50",
+      "name": "Rainkeeper",
+      "description": "Save 50 units of water on first clears.",
+      "threshold": 50,
+      "metric": "saved_water",
+      "file": "achievements/dew_conserve_50.png"
+    },
+    {
+      "key": "dew_harvest_25",
+      "name": "Market basket",
+      "description": "Harvest 25 crop beds on first clears.",
+      "threshold": 25,
+      "metric": "harvests",
+      "file": "achievements/dew_harvest_25.png"
+    },
+    {
+      "key": "dew_harvest_150",
+      "name": "Abundant rows",
+      "description": "Harvest 150 crop beds on first clears.",
+      "threshold": 150,
+      "metric": "harvests",
+      "file": "achievements/dew_harvest_150.png"
+    },
+    {
+      "key": "dew_gate",
+      "name": "Open the sluice",
+      "description": "Complete a plot containing a gate.",
+      "threshold": 1,
+      "metric": "gates",
+      "file": "achievements/dew_gate.png"
+    },
+    {
+      "key": "dew_twins",
+      "name": "Two wells, one garden",
+      "description": "Complete a two-tank plot.",
+      "threshold": 1,
+      "metric": "twins",
+      "file": "achievements/dew_twins.png"
+    },
+    {
+      "key": "dew_daily",
+      "name": "Morning dew",
+      "description": "Complete a daily challenge.",
+      "threshold": 1,
+      "metric": "dailies",
+      "file": "achievements/dew_daily.png"
+    },
+    {
+      "key": "dew_daily_7",
+      "name": "Seven green mornings",
+      "description": "Complete 7 daily challenges.",
+      "threshold": 7,
+      "metric": "dailies",
+      "file": "achievements/dew_daily_7.png"
+    },
+    {
+      "key": "dew_level_5",
+      "name": "Seasoned grower",
+      "description": "Reach grower level 5.",
+      "threshold": 5,
+      "metric": "level",
+      "file": "achievements/dew_level_5.png"
+    },
+    {
+      "key": "dew_level_10",
+      "name": "Master of the plot",
+      "description": "Reach grower level 10.",
+      "threshold": 10,
+      "metric": "level",
+      "file": "achievements/dew_level_10.png"
+    },
+    {
+      "key": "dew_style",
+      "name": "A little color",
+      "description": "Unlock a garden palette.",
+      "threshold": 1,
+      "metric": "styles",
+      "file": "achievements/dew_style.png"
+    },
+    {
+      "key": "dew_perfect_10",
+      "name": "Thoughtful channels",
+      "description": "Earn 10 unassisted three-star plot records.",
+      "threshold": 10,
+      "metric": "perfect",
+      "file": "achievements/dew_perfect_10.png"
+    }
+  ],
+  "leaderboard_icons": [
+    {
+      "key": "dew_plots",
+      "name": "Plots in bloom",
+      "description": "Different campaign plots completed.",
+      "metric": "plots",
+      "file": "leaderboards/dew_plots.png"
+    },
+    {
+      "key": "dew_stars",
+      "name": "Harvest stars",
+      "description": "Best campaign plot stars.",
+      "metric": "stars",
+      "file": "leaderboards/dew_stars.png"
+    },
+    {
+      "key": "dew_grower",
+      "name": "Grower experience",
+      "description": "Earned grower experience.",
+      "metric": "xp",
+      "file": "leaderboards/dew_grower.png"
+    },
+    {
+      "key": "dew_efficiency",
+      "name": "Thoughtful harvests",
+      "description": "Unassisted three-star campaign records.",
+      "metric": "perfect",
+      "file": "leaderboards/dew_efficiency.png"
+    }
+  ],
+  "copy_validation": "Draft aligned to the game brief; confirm against actual implemented build before store submission.",
+  "external_services": "Google Play Games IDs/backend and production AdMob account configuration/final tests are supplied by the owner. First-pass ads use test IDs."
+}

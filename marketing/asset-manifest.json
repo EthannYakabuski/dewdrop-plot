@@ -1,0 +1,425 @@
+[
+  {
+    "file": "achievements/dew_conserve_10.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "551fc4b1e5ed26e5a6795f1f51dbbe82a9fe8ac76cc84634037533242685c3d0"
+  },
+  {
+    "file": "achievements/dew_conserve_50.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "5574f895dfdc73e9da409725890b84e3299e10f16b63ce1250803fe5304e010e"
+  },
+  {
+    "file": "achievements/dew_daily.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "5f5615e1ea1662fc599bed46b3f8a7afb579dd145ff00c7f8292a03d59dbd4e8"
+  },
+  {
+    "file": "achievements/dew_daily_7.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "2d53220a62bbefe5560576990c7335b28015b054128dd720cc8387e177e1632e"
+  },
+  {
+    "file": "achievements/dew_first.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "fb0a7044ce90a68e5eba10bd82e201f1e5538049d4d557842825b362dcb2fd74"
+  },
+  {
+    "file": "achievements/dew_gate.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "d3116394cc22fc053f32cf80ca9b03e032bb791c562ef3bb7337ff2e70c5ea93"
+  },
+  {
+    "file": "achievements/dew_harvest_150.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "2c9d631b846a45d309493cf263d75bc0264ba193c6efdb88ab4c0ceff438a094"
+  },
+  {
+    "file": "achievements/dew_harvest_25.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "c36097eaeb87dcec6b44ba56fbc2e9a42ac4451b76ad74993f006014b71718ed"
+  },
+  {
+    "file": "achievements/dew_level_10.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "9b21b56a91883c7261ed9c08b26bcdc39e1a22956648112e5e9badf4d9e6846b"
+  },
+  {
+    "file": "achievements/dew_level_5.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "d4baa265e406b88955c4e98b03df1796951ec7c040a902ce83e2af37c5767eb8"
+  },
+  {
+    "file": "achievements/dew_perfect_10.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "e2c3e5081fe7d2d2d984e5eb4b4a4fe203f7d937179b96edb2d04eef94d07501"
+  },
+  {
+    "file": "achievements/dew_sixty.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "351e41e6b160fc764453f647d4626bd8b96e114879427dec028fdfbe799f3ae3"
+  },
+  {
+    "file": "achievements/dew_stars_100.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "37a8748a5d6518e9dfcbd0c3efdcfbfb925cf87587bc5117b061a07c889f6f35"
+  },
+  {
+    "file": "achievements/dew_stars_30.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "ec4782fd9447f6addfd4e1083dfb53c029bb08fdfe4e641d9f8cd6cd1fa1fcd7"
+  },
+  {
+    "file": "achievements/dew_style.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "99580f809047fbde159b8d0e8dc4e1e35f89bd45b4e349682f98153777f59b21"
+  },
+  {
+    "file": "achievements/dew_ten.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "4a63609980b274e371e7ebc419dc3c640857530742dc47d185dc32f710f42e55"
+  },
+  {
+    "file": "achievements/dew_thirty.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "bf7a8bdcb3bb9bc3e806e0a62879203163790832f233738dc7668a4d1567b1e6"
+  },
+  {
+    "file": "achievements/dew_twins.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "f6f9edf1ee9224ed3f1b2543da55bf27ee9abf6e8b035e75e88b367d61affd17"
+  },
+  {
+    "file": "app-icon-192.png",
+    "dimensions": [
+      192,
+      192
+    ],
+    "mode": "RGB",
+    "sha256": "146555f1d1a4eb8bf07a18dafdea364dbc95ce8defddb0fd34396ef6097dc38a"
+  },
+  {
+    "file": "app-icon-512.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "45a8f46763cfc06ab8eeeb8a7e6ed01eca10c9a78099c03f7c142ccb719aa9e6"
+  },
+  {
+    "file": "feature-graphic-1024x500.png",
+    "dimensions": [
+      1024,
+      500
+    ],
+    "mode": "RGB",
+    "sha256": "eb57ef9dbf258d3589f36f330388e0d7b7db000db983260d5acdb28dfcbb41e5"
+  },
+  {
+    "file": "leaderboards/dew_efficiency.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "0d97c766ee1c3582ecdd1d33cf4e830df5fa2a27776276daf00ed20a8256dff9"
+  },
+  {
+    "file": "leaderboards/dew_grower.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "9a3ad9b73122a885df3df622fa8b05074467c17a7e82c36244d4c2ba17c2ec58"
+  },
+  {
+    "file": "leaderboards/dew_plots.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "b66fb1ede06e42141fb473812e738ffc854040842ee89eb16b8838cf3c068e38"
+  },
+  {
+    "file": "leaderboards/dew_stars.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "5f2339e7a14d52b1078f0e2e77053f0194d669527c3eb6ba1f7cc92fe88abece"
+  },
+  {
+    "file": "screenshots/phone-collection.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "0819e960abbd1052b39d0b689e24003722951cd0f297dd3f6f3c706351ec2b96"
+  },
+  {
+    "file": "screenshots/phone-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "ef5c8378b2353655a93183f415d6491e37a883a9b1bbfe98c5f3e5efc42c661a"
+  },
+  {
+    "file": "screenshots/phone-play.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "e91d3e474526c1e52d89627256f0a32056add8693601771587655bc76d5529ec"
+  },
+  {
+    "file": "screenshots/raw/phone-collection.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "0819e960abbd1052b39d0b689e24003722951cd0f297dd3f6f3c706351ec2b96"
+  },
+  {
+    "file": "screenshots/raw/phone-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "ef5c8378b2353655a93183f415d6491e37a883a9b1bbfe98c5f3e5efc42c661a"
+  },
+  {
+    "file": "screenshots/raw/phone-play.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "e91d3e474526c1e52d89627256f0a32056add8693601771587655bc76d5529ec"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-collection.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "ea27fa7f8a695744b68ebb29f21ea771d821f027d38ab34165d315613b0e85b6"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-home.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "d646bd4955e70f35cc310ffd9fc8ae320a620ce2f3f494bda337d74576031cae"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-play.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "8dbd2ae1a74ea5c46cf8067b900498955aad8f7406f216a817e82f01d53a2a5d"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-collection.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "8e5129c21905261b6a71e609e6ed93b370b0f03e02942d296869dc86a93db43a"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-home.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "520fc835f8ae1486d0464d91232cd8f3dd0b298b81b6741f989f55419ebf5760"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-play.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "b514d5305214e35f4a9f4bc2f72bb511b82cfd938221de3dc4070bb17992055f"
+  },
+  {
+    "file": "screenshots/tablet-10-collection.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "ea27fa7f8a695744b68ebb29f21ea771d821f027d38ab34165d315613b0e85b6"
+  },
+  {
+    "file": "screenshots/tablet-10-home.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "d646bd4955e70f35cc310ffd9fc8ae320a620ce2f3f494bda337d74576031cae"
+  },
+  {
+    "file": "screenshots/tablet-10-play.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "8dbd2ae1a74ea5c46cf8067b900498955aad8f7406f216a817e82f01d53a2a5d"
+  },
+  {
+    "file": "screenshots/tablet-7-collection.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "8e5129c21905261b6a71e609e6ed93b370b0f03e02942d296869dc86a93db43a"
+  },
+  {
+    "file": "screenshots/tablet-7-home.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "520fc835f8ae1486d0464d91232cd8f3dd0b298b81b6741f989f55419ebf5760"
+  },
+  {
+    "file": "screenshots/tablet-7-play.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "b514d5305214e35f4a9f4bc2f72bb511b82cfd938221de3dc4070bb17992055f"
+  },
+  {
+    "file": "source_art/carrot.png",
+    "dimensions": [
+      10,
+      16
+    ],
+    "mode": "RGBA",
+    "sha256": "20c2b6f45e3c91833739c6731298c8ca0e9c3b041d8ecf64133769df740cc796"
+  },
+  {
+    "file": "source_art/corn.png",
+    "dimensions": [
+      14,
+      14
+    ],
+    "mode": "RGBA",
+    "sha256": "7595a91a69a943c02b0ff6079b21a0273901a8a3ba3988877f87532abb06a0d6"
+  },
+  {
+    "file": "source_art/lettuce.png",
+    "dimensions": [
+      14,
+      12
+    ],
+    "mode": "RGBA",
+    "sha256": "6b7311573e71fc9845e00f781a6d23b03a9422fc9b88cad3e9387481f491c297"
+  },
+  {
+    "file": "source_art/watering_can.png",
+    "dimensions": [
+      16,
+      13
+    ],
+    "mode": "RGBA",
+    "sha256": "60dbee182924fa5795646f4da18d58affe4947e4748f8aab27ec59ffa7b37b56"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "game": "Dewdrop Plot",
+  "achievement_count": 18,
+  "leaderboard_count": 4,
+  "capture_count": 9,
+  "capture_apk_sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+  "capture_visual_review": "All9ordinaryAndroidemulatorviews individually reviewed.",
+  "scope": "Image/viewport acceptance only; source/native limitations in docs/NATIVE_QA.json."
+}

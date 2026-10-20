@@ -1,0 +1,5 @@
+Supplied Kenney Tiny Farm 16px crop/tool tiles.
+Source appearance preserved; only transparent outer margins are removed.
+Commercial-use rights were reviewed by the project owner; preserve the included CC0 pack notice.
+Apartment geometry, water ribbon/drop, layout, brand marks and badge shapes are original project artwork.
+Feature/app artwork is illustrative branding, not a gameplay screenshot.

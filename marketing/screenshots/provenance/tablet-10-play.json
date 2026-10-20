@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "key": "tablet-10-play",
+  "file": "tablet-10-play.png",
+  "sha256": "8dbd2ae1a74ea5c46cf8067b900498955aad8f7406f216a817e82f01d53a2a5d",
+  "dimensions": [
+    1600,
+    2560
+  ],
+  "actual_operator_visual_approved": true,
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "source_apk_sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+  "scope": "Public image identity/review metadata only; private machine, GPU and runtime coordinates omitted."
+}

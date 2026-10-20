@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "admob": {
+    "test_mode": true,
+    "app_id": "ca-app-pub-3940256099942544~3347511713",
+    "banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
+    "rewarded_unit_id": "ca-app-pub-3940256099942544/5224354917",
+    "tag_for_under_age_of_consent": false
+  },
+  "play_games": {
+    "enabled": false,
+    "game_id": "",
+    "achievements": {
+      "dew_first": "",
+      "dew_ten": "",
+      "dew_thirty": "",
+      "dew_sixty": "",
+      "dew_stars_30": "",
+      "dew_stars_100": "",
+      "dew_conserve_10": "",
+      "dew_conserve_50": "",
+      "dew_harvest_25": "",
+      "dew_harvest_150": "",
+      "dew_gate": "",
+      "dew_twins": "",
+      "dew_daily": "",
+      "dew_daily_7": "",
+      "dew_level_5": "",
+      "dew_level_10": "",
+      "dew_style": "",
+      "dew_perfect_10": ""
+    },
+    "leaderboards": {
+      "dew_plots": "",
+      "dew_stars": "",
+      "dew_grower": "",
+      "dew_efficiency": ""
+    }
+  }
+}

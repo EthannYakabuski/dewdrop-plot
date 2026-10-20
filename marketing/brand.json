@@ -1,0 +1,72 @@
+{
+  "title": "Dewdrop Plot",
+  "display": [
+    "DEWDROP",
+    "PLOT"
+  ],
+  "kind": "garden",
+  "staging_folder": "dewdrop-plot-source",
+  "short": "Plan clever water routes, grow a little harvest, and make every drop count.",
+  "palette": {
+    "ink": "#173D3A",
+    "paper": "#FFF3D4",
+    "primary": "#A3CF86",
+    "light": "#D3E7B9",
+    "gold": "#F2C25C",
+    "accent": "#2C9DA7"
+  },
+  "strap": "A small garden. A clever little drop.",
+  "feature_chips": [
+    "PLAN",
+    "WATER",
+    "BLOOM"
+  ],
+  "achievements": [
+    "dew_first",
+    "dew_ten",
+    "dew_thirty",
+    "dew_sixty",
+    "dew_stars_30",
+    "dew_stars_100",
+    "dew_conserve_10",
+    "dew_conserve_50",
+    "dew_harvest_25",
+    "dew_harvest_150",
+    "dew_gate",
+    "dew_twins",
+    "dew_daily",
+    "dew_daily_7",
+    "dew_level_5",
+    "dew_level_10",
+    "dew_style",
+    "dew_perfect_10"
+  ],
+  "leaderboards": [
+    "dew_plots",
+    "dew_stars",
+    "dew_grower",
+    "dew_efficiency"
+  ],
+  "cards": [
+    [
+      "One tank, a clever little garden",
+      "Each crop bed needs a visible amount of water. Choose the harvest that matters and plan within the supply."
+    ],
+    [
+      "Draw the route, then watch it bloom",
+      "Sketch channels, set the gates, and release a single watering pulse through your plan. Undo, reset and retry freely."
+    ],
+    [
+      "Harvest more by wasting less",
+      "Solve 60 plots, grow your experience, and chase unassisted three-star records. A daily challenge brings a fresh little goal."
+    ]
+  ],
+  "category": "GAME_PUZZLE",
+  "tags": [
+    "Puzzle",
+    "Logic",
+    "Farming",
+    "Single player",
+    "Offline"
+  ]
+}

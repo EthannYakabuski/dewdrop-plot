@@ -1,0 +1,3 @@
+Dewdrop Plot
+Copyright2026 EthannYakabuski.
+Original project code is Apache-2.0. Included assets and plugins retain their existing licenses and notices.

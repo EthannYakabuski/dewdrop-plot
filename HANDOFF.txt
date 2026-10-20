@@ -1,0 +1,30 @@
+DEWDROP PLOT - LOCAL TEST SOURCE PACKAGE
+Sixty irrigation puzzles across six chapters: draw channels, manage gates and water,
+then release a visible pulse to meet the harvest order. Free Undo/Reset/retries,
+Daily plots, gifts/quests, growerXP and cosmetic colors provide progression.
+
+Current tested Android APK SHA256: ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103
+No prebuilt exports are committed. README.md has build/play instructions;
+docs/NATIVE_QA.json and docs/LOCAL_TEST_RESULTS.json summarize dated local checks.
+Store art/copy and nine reviewed emulator screenshots are included with notices.
+
+Actual native play verified a3star ordinary clear/40coins35XP, a genuine earned hint,
+real interstitial, Daily80coins55XP plus30coin level bonus, repeat payouts0, and
+login20/checklist35 once. Hint edits one correction and assisted flags; it gives no
+immediate wallet reward or automatic completion. Early-unearned SDK branch unverified.
+Home itself preserves internal saved draft. New Grow Next/Plots entry starts a fresh
+attempt; no visible Resume Draft is promised. Android Back/ordinary navigation and all
+20typed cold/offline saved groups were tested. The original automation was interrupted;
+completed phone proof was preserved and a separate actual manual remainder finished
+six tablet roles/restart/restoration. Original automation completion is not claimed.
+Nine unchanged raw PNG roles were individually reviewed; no fixture/physical tablets.
+Emulator-only network/display settings were restored and the game safely stopped.
+
+4107model/42menu checks,83isolated lifecycle checks/10touch transitions and8desktop
+fixtures are separate source evidence, not native proof. Physical devices/audio,
+interactive Web/production services, long-term balance and human acceptance unverified.
+Godot4.5.1 Compatibility minAPI24/targetAPI35 is an export constraint, not current Play
+eligibility. Owner supplies realIDs/signing/privacy/consent/store declarations and Play
+publication. Original work Apache2; retain LICENSE, NOTICE and LICENSES/third-party notices.
+Pages job is explicitly if:false and live deployment held; no hosted-CI/publication
+success is asserted by this local preparation.

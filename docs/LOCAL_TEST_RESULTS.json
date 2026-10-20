@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "game": "Dewdrop Plot",
+  "status": "LOCAL_TEST_PACKAGE_COMPLETE_WITH_LIMITATIONS",
+  "scope": "Public summary of source/build/native checks. Private saves, SDK logs and evidence coordinates are not distributed.",
+  "tested_android_apk": {
+    "sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+    "bytes": 183851862
+  },
+  "source_hashes": {
+    "export_presets.cfg": "0f8e9002722cf0e02174fe5da6ee71320dabf85efcbb13379d7c6da7a9d267b6",
+    "game/board.gd": "61466f94a9de18f1b4e41535ecd6b7692f92fd26d0411a830d37e5c676f8355f",
+    "game/catalog.json": "a4e1c165c03b2b50e62113851fe47deaa09c6578c441202abe18e62c6ec03270",
+    "game/main.gd": "f47f8e1e307f34f62e1fc554b75d46f6e1d56006329bb37766dd93ebfb905d88",
+    "game/model.gd": "9f23639a44125aeeeb88b5799fefdd9dbc13c47f39c9392ce1bc61e32a7ffbe1",
+    "game/plots.json": "36eaf92e14a4d12f6843e10fd0c009aa7d6a03ddd6c0421e15fca9376fe3efd7",
+    "platform/config.json": "c429486e21723fa2f1ec8cccc41f2405388e802d7814aa6f410bb522fab6c513",
+    "platform/services.gd": "4b4c6e6751524097dee623825b3384192ac0be5251f2829fcfaadd293cf03356",
+    "project.godot": "8dd0463e6e99d7b50be8b9140cc01fc9920323b66bb05ecbd5a5cf210202ec08"
+  },
+  "source_coverage": "Nine runtime inputs byte-identical before/after accepted Android/Web lifecycle exports; scoped attestation, not whole-project reproducible-build proof.",
+  "source_checks": {
+    "deterministic_model_checks": 4107,
+    "menu_geometry_checks": 42,
+    "isolated_lifecycle_checks": 83,
+    "touch_transitions": 10,
+    "desktop_fixture_images": 8,
+    "scope": "Stored witnesses/production simulator and source UI fixtures; desktop demos/mock Services are not native evidence. A fixture certificate-startup warning was qualified separately."
+  },
+  "web": {
+    "html_sha256": "2bd8480479167f1f99540e126a77437ff5905413cf8ac84be4e421833770ba3d",
+    "html_bytes": 5486,
+    "packed_entries": 440,
+    "fresh_sidecars": 9,
+    "static_validation_passed": true,
+    "interactive_browser_verified": false
+  },
+  "native_summary": "Actual ordinary puzzle, earned one-correction hint, interstitial, Daily/claims/repeats, Back, all20typed cold/offline retention, actual manual remainder, nine raw store-role approvals, restored emulator settings and safe stop verified. See NATIVE_QA.json.",
+  "draft_semantics": "Home preserves internally saved draft. Subsequent Grow Next/Plots puzzle entry resets the attempt; no visible Resume Draft.",
+  "owner_work": [
+    "Real AdMob/Play Games configuration and production verification",
+    "Signing, support/privacy/contact URLs, consent/audience/content rating and ads/Data safety declarations",
+    "Google Play publication, physical devices and human playtesting"
+  ],
+  "deployment": "Pages job explicitly if:false; hosted CI not run by local QA. This preparation performs no remote publication.",
+  "limits": [
+    "Native SDK early-unearned/early-dismiss branch remains unverified. No forced callback, blind close or offline-unavailable substitute establishes that branch.",
+    "One Android11/API30 x86 emulator supplied phone and logical-tablet layouts; no physical phone/tablet acceptance.",
+    "Emulator audio disabled. Audible output, interactive Web/audio/WebGL, production services, human puzzle balance/content and broad ad-fill reliability unverified.",
+    "Midnight rollover and multi-day progression were not verified.",
+    "Godot4.5.1 Compatibility used minAPI24/targetAPI35 due actual export constraints; this is not current Google Play release eligibility."
+  ]
+}

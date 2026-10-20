@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "game": "Dewdrop Plot",
+  "scope": "Historical deterministic desktop demo fixtures; not Android/native evidence or physical-device acceptance.",
+  "viewport": [
+    540,
+    960
+  ],
+  "source_hash_at_final_freeze": {
+    "game/main.gd": "8cbfb6c22f87125d87c8025504a64afce7e283e78305ad67b2623e4f3bf15082",
+    "game/model.gd": "9f23639a44125aeeeb88b5799fefdd9dbc13c47f39c9392ce1bc61e32a7ffbe1",
+    "game/board.gd": "61466f94a9de18f1b4e41535ecd6b7692f92fd26d0411a830d37e5c676f8355f",
+    "game/plots.json": "36eaf92e14a4d12f6843e10fd0c009aa7d6a03ddd6c0421e15fca9376fe3efd7"
+  },
+  "captures": [
+    {
+      "path": "core-home.png",
+      "sha256": "d7c35677eb2c8e1e2ed5f4098c628b325dbe1e8388991454381c98c338067dfb",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "path": "core-play.png",
+      "sha256": "c827f437f3a834b99c8797cc6d9d54d62ce1b4240da9ad2c5121a607285bb707",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "path": "core-levels.png",
+      "sha256": "78230d645f275d32ff38cdc2a3e1bdc6742fa8991a5df2ab771911a25760e945",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "path": "core-daily.png",
+      "sha256": "18173c9e82b2d6d220873bfccc30802aa9ef0409f409d7f91290de6d7fd8983a",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "path": "core-garden.png",
+      "sha256": "7d979e50e19544f83d26e1e55d67909fef3df5029db9324eff480236893a75a7",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "path": "core-journal.png",
+      "sha256": "c83a4d8fe7e6b2eb921c23298fcf0651812311cdca35e52356d96bb845e67941",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "path": "core-settings.png",
+      "sha256": "72b26cd9e7a3d862cb7c40c680cc62a2618db4bee6f3550b637e0d73a0e04e88",
+      "width": 540,
+      "height": 960
+    },
+    {
+      "path": "core-result.png",
+      "sha256": "2b1cf1aff31666bde64fe31fbe83d26d5af17d513b9a353d70ecb7cd7ad310ff",
+      "width": 540,
+      "height": 960
+    }
+  ]
+}

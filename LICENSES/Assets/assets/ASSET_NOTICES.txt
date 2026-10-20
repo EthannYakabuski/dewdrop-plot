@@ -1,0 +1,2 @@
+Dewdrop Plot asset notices
+Supplied Kenney Tiny Farm 1.0 pixels, Kenney UI Audio and Interface Sounds: CC0. Original pack notices are preserved in assets/licenses. Medals notice is retained for any package icon reuse. Original canals, UI, icon, simulation, puzzle arrangements and morning.wav music were created for this game; original project work is Apache-2.0. Supplied art was not generated or claimed as original.

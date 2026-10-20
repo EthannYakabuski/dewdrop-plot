@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "source_apk_sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+  "status": "NINE_LOCALLY_VISUALLY_REVIEWED_STORE_ROLES",
+  "captures": [
+    {
+      "key": "phone-home",
+      "sha256": "ef5c8378b2353655a93183f415d6491e37a883a9b1bbfe98c5f3e5efc42c661a",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "phone-play",
+      "sha256": "e91d3e474526c1e52d89627256f0a32056add8693601771587655bc76d5529ec",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "phone-collection",
+      "sha256": "0819e960abbd1052b39d0b689e24003722951cd0f297dd3f6f3c706351ec2b96",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "tablet-7-home",
+      "sha256": "520fc835f8ae1486d0464d91232cd8f3dd0b298b81b6741f989f55419ebf5760",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "tablet-7-play",
+      "sha256": "b514d5305214e35f4a9f4bc2f72bb511b82cfd938221de3dc4070bb17992055f",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "tablet-7-collection",
+      "sha256": "8e5129c21905261b6a71e609e6ed93b370b0f03e02942d296869dc86a93db43a",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "tablet-10-home",
+      "sha256": "d646bd4955e70f35cc310ffd9fc8ae320a620ce2f3f494bda337d74576031cae",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "tablet-10-play",
+      "sha256": "8dbd2ae1a74ea5c46cf8067b900498955aad8f7406f216a817e82f01d53a2a5d",
+      "actual_operator_visual_approved": true
+    },
+    {
+      "key": "tablet-10-collection",
+      "sha256": "ea27fa7f8a695744b68ebb29f21ea771d821f027d38ab34165d315613b0e85b6",
+      "actual_operator_visual_approved": true
+    }
+  ],
+  "scope": "Public screenshot review summary only; private runtime ledger not distributed."
+}

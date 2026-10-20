@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "key": "tablet-7-play",
+  "file": "tablet-7-play.png",
+  "sha256": "b514d5305214e35f4a9f4bc2f72bb511b82cfd938221de3dc4070bb17992055f",
+  "dimensions": [
+    1200,
+    1920
+  ],
+  "actual_operator_visual_approved": true,
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "source_apk_sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+  "scope": "Public image identity/review metadata only; private machine, GPU and runtime coordinates omitted."
+}

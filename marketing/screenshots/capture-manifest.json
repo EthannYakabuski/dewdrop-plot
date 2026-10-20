@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "game": "Dewdrop Plot",
+  "source_apk_sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+  "source_apk_bytes": 183851862,
+  "capture_count": 9,
+  "captures": [
+    {
+      "key": "phone-home",
+      "file": "phone-home.png",
+      "sha256": "ef5c8378b2353655a93183f415d6491e37a883a9b1bbfe98c5f3e5efc42c661a",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "phone-play",
+      "file": "phone-play.png",
+      "sha256": "e91d3e474526c1e52d89627256f0a32056add8693601771587655bc76d5529ec",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "phone-collection",
+      "file": "phone-collection.png",
+      "sha256": "0819e960abbd1052b39d0b689e24003722951cd0f297dd3f6f3c706351ec2b96",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "tablet-7-home",
+      "file": "tablet-7-home.png",
+      "sha256": "520fc835f8ae1486d0464d91232cd8f3dd0b298b81b6741f989f55419ebf5760",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "tablet-7-play",
+      "file": "tablet-7-play.png",
+      "sha256": "b514d5305214e35f4a9f4bc2f72bb511b82cfd938221de3dc4070bb17992055f",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "tablet-7-collection",
+      "file": "tablet-7-collection.png",
+      "sha256": "8e5129c21905261b6a71e609e6ed93b370b0f03e02942d296869dc86a93db43a",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "tablet-10-home",
+      "file": "tablet-10-home.png",
+      "sha256": "d646bd4955e70f35cc310ffd9fc8ae320a620ce2f3f494bda337d74576031cae",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "tablet-10-play",
+      "file": "tablet-10-play.png",
+      "sha256": "8dbd2ae1a74ea5c46cf8067b900498955aad8f7406f216a817e82f01d53a2a5d",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    },
+    {
+      "key": "tablet-10-collection",
+      "file": "tablet-10-collection.png",
+      "sha256": "ea27fa7f8a695744b68ebb29f21ea771d821f027d38ab34165d315613b0e85b6",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "actual_operator_visual_approved": true,
+      "physical_device_test": false,
+      "physical_tablet_test": false
+    }
+  ],
+  "method": "Unmodified Android guest PNGs from ordinary play/planning, no fixture or pixel transformation.",
+  "logical_tablet_limitation": "One emulator with phone1080x1920/logical7 1200x1920/logical10 1600x2560 display profiles; no physical tablets.",
+  "private_records_distributed": false
+}

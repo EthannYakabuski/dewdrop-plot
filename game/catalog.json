@@ -1,0 +1,226 @@
+{
+  "game": "Dewdrop Plot",
+  "version": 1,
+  "achievements": [
+    {
+      "key": "dew_first",
+      "name": "First green shoot",
+      "title": "First green shoot",
+      "description": "Complete your first plot.",
+      "stat": "plots",
+      "threshold": 1,
+      "icon": "marketing/achievements/dew_first.png"
+    },
+    {
+      "key": "dew_ten",
+      "name": "A growing habit",
+      "title": "A growing habit",
+      "description": "Complete 10 different plots.",
+      "stat": "plots",
+      "threshold": 10,
+      "icon": "marketing/achievements/dew_ten.png"
+    },
+    {
+      "key": "dew_thirty",
+      "name": "Allotment keeper",
+      "title": "Allotment keeper",
+      "description": "Complete 30 different plots.",
+      "stat": "plots",
+      "threshold": 30,
+      "icon": "marketing/achievements/dew_thirty.png"
+    },
+    {
+      "key": "dew_sixty",
+      "name": "Festival grower",
+      "title": "Festival grower",
+      "description": "Complete all 60 plots.",
+      "stat": "plots",
+      "threshold": 60,
+      "icon": "marketing/achievements/dew_sixty.png"
+    },
+    {
+      "key": "dew_stars_30",
+      "name": "Golden morning",
+      "title": "Golden morning",
+      "description": "Earn 30 plot stars.",
+      "stat": "stars",
+      "threshold": 30,
+      "icon": "marketing/achievements/dew_stars_30.png"
+    },
+    {
+      "key": "dew_stars_100",
+      "name": "A bright season",
+      "title": "A bright season",
+      "description": "Earn 100 plot stars.",
+      "stat": "stars",
+      "threshold": 100,
+      "icon": "marketing/achievements/dew_stars_100.png"
+    },
+    {
+      "key": "dew_conserve_10",
+      "name": "Every drop matters",
+      "title": "Every drop matters",
+      "description": "Save 10 units of water on first clears.",
+      "stat": "saved_water",
+      "threshold": 10,
+      "icon": "marketing/achievements/dew_conserve_10.png"
+    },
+    {
+      "key": "dew_conserve_50",
+      "name": "Rainkeeper",
+      "title": "Rainkeeper",
+      "description": "Save 50 units of water on first clears.",
+      "stat": "saved_water",
+      "threshold": 50,
+      "icon": "marketing/achievements/dew_conserve_50.png"
+    },
+    {
+      "key": "dew_harvest_25",
+      "name": "Market basket",
+      "title": "Market basket",
+      "description": "Harvest 25 crop beds on first clears.",
+      "stat": "harvests",
+      "threshold": 25,
+      "icon": "marketing/achievements/dew_harvest_25.png"
+    },
+    {
+      "key": "dew_harvest_150",
+      "name": "Abundant rows",
+      "title": "Abundant rows",
+      "description": "Harvest 150 crop beds on first clears.",
+      "stat": "harvests",
+      "threshold": 150,
+      "icon": "marketing/achievements/dew_harvest_150.png"
+    },
+    {
+      "key": "dew_gate",
+      "name": "Open the sluice",
+      "title": "Open the sluice",
+      "description": "Complete a plot containing a gate.",
+      "stat": "gates",
+      "threshold": 1,
+      "icon": "marketing/achievements/dew_gate.png"
+    },
+    {
+      "key": "dew_twins",
+      "name": "Two wells, one garden",
+      "title": "Two wells, one garden",
+      "description": "Complete a two-tank plot.",
+      "stat": "twins",
+      "threshold": 1,
+      "icon": "marketing/achievements/dew_twins.png"
+    },
+    {
+      "key": "dew_daily",
+      "name": "Morning dew",
+      "title": "Morning dew",
+      "description": "Complete a daily challenge.",
+      "stat": "dailies",
+      "threshold": 1,
+      "icon": "marketing/achievements/dew_daily.png"
+    },
+    {
+      "key": "dew_daily_7",
+      "name": "Seven green mornings",
+      "title": "Seven green mornings",
+      "description": "Complete 7 daily challenges.",
+      "stat": "dailies",
+      "threshold": 7,
+      "icon": "marketing/achievements/dew_daily_7.png"
+    },
+    {
+      "key": "dew_level_5",
+      "name": "Seasoned grower",
+      "title": "Seasoned grower",
+      "description": "Reach grower level 5.",
+      "stat": "level",
+      "threshold": 5,
+      "icon": "marketing/achievements/dew_level_5.png"
+    },
+    {
+      "key": "dew_level_10",
+      "name": "Master of the plot",
+      "title": "Master of the plot",
+      "description": "Reach grower level 10.",
+      "stat": "level",
+      "threshold": 10,
+      "icon": "marketing/achievements/dew_level_10.png"
+    },
+    {
+      "key": "dew_style",
+      "name": "A little color",
+      "title": "A little color",
+      "description": "Unlock a garden palette.",
+      "stat": "styles",
+      "threshold": 1,
+      "icon": "marketing/achievements/dew_style.png"
+    },
+    {
+      "key": "dew_perfect_10",
+      "name": "Thoughtful channels",
+      "title": "Thoughtful channels",
+      "description": "Earn 10 unassisted three-star plot records.",
+      "stat": "perfect",
+      "threshold": 10,
+      "icon": "marketing/achievements/dew_perfect_10.png"
+    }
+  ],
+  "leaderboards": [
+    {
+      "key": "dew_plots",
+      "title": "Plots in bloom",
+      "name": "Plots in bloom",
+      "description": "Different campaign plots completed.",
+      "stat": "plots",
+      "sort": "descending",
+      "icon": "marketing/leaderboards/dew_plots.png"
+    },
+    {
+      "key": "dew_stars",
+      "title": "Harvest stars",
+      "name": "Harvest stars",
+      "description": "Best campaign plot stars.",
+      "stat": "stars",
+      "sort": "descending",
+      "icon": "marketing/leaderboards/dew_stars.png"
+    },
+    {
+      "key": "dew_grower",
+      "title": "Grower experience",
+      "name": "Grower experience",
+      "description": "Earned grower experience.",
+      "stat": "xp",
+      "sort": "descending",
+      "icon": "marketing/leaderboards/dew_grower.png"
+    },
+    {
+      "key": "dew_efficiency",
+      "title": "Thoughtful harvests",
+      "name": "Thoughtful harvests",
+      "description": "Unassisted three-star campaign records.",
+      "stat": "perfect",
+      "sort": "descending",
+      "icon": "marketing/leaderboards/dew_efficiency.png"
+    }
+  ],
+  "ads": {
+    "banner": "home only; dynamic native banner and safe-area reserve from menu_bottom_reserve(stage)",
+    "interstitial": "round_finished once per successful plot attempt; adapter cadence every two finished rounds",
+    "reward": "optional route hint; mark attempt assisted before reveal; grant only true earned callback; unavailable on Web"
+  },
+  "daily": {
+    "challenge": "UTC curated campaign plot; once per day rewards",
+    "quests": [
+      "Complete 2 different plots",
+      "Harvest 6 beds on first clears",
+      "Save 3 water on first clears"
+    ]
+  },
+  "palette": {
+    "ink": "#173d3a",
+    "cream": "#fff3d4",
+    "water": "#2c9da7",
+    "gold": "#f2c25c",
+    "grass": "#a3cf86"
+  }
+}

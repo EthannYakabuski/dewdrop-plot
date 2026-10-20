@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "game": "Dewdrop Plot",
+  "achievement_icons": 18,
+  "leaderboard_icons": 4,
+  "capture_manifest": "screenshots/capture-manifest.json",
+  "capture_count": 9,
+  "capture_apk_sha256": "ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103",
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "scope": "Local store art/copy and reviewed emulator captures; production services and publication separate."
+}
