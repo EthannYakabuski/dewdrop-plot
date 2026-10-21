@@ -10,6 +10,16 @@ Plan channels, inspect crop demand and your water budget, then release a waterin
 
 Portrait touch/mouse controls and local offline saves. Native ads and Play Games are optional services; Web keeps gameplay and progress functional when they are unavailable. Optional ad benefits require the actual native earned-reward callback. No browser simulation grants an ad reward.
 
+## Continue this project
+
+This game folder is the canonical Git working copy for [Dewdrop Plot](https://github.com/EthannYakabuski/dewdrop-plot). Open this folder as its own Codex project and use one focused task per update. Read `AGENTS.md`, `HANDOFF.txt` and `docs/PLATFORM_SETUP.md` first; a new task must recover context from these files rather than assume access to an earlier chat. Check existing user changes before editing.
+
+Verified pre-consolidation public baseline: `2788003b300c0bf8ff400c39f50a33466b4a412d`.
+[Hosted build/test run](https://github.com/EthannYakabuski/dewdrop-plot/actions/runs/39527047278): **PASS** on that exact commit.
+Later documentation commits require their own CI result; this dated result does not verify later binaries.
+
+`game/catalog.json` defines 18 achievements and 4 leaderboards. `platform/config.json` maps their symbolic keys to owner-supplied console IDs; the numeric Play Games game ID must also match `export_presets.cfg`. See native setup for the separate AdMob manifest setting and the development test-ID rules.
+
 ## Build and test
 
 Use Godot **4.5.1 Compatibility**, matching export templates, Java17 and the Android SDK. Android test package: `com.ethannyakabuski.dewdropplot`, minimumAPI24/targetAPI35. Android texture import is enabled; the initial Android shader-cache guard avoids an observed old-emulator driver fault. Android remote-run is disabled in the preset so headless exports do not shut down the ADB server; command-line export still works. See [native setup](docs/PLATFORM_SETUP.md) and the game/tests reports for exact test entrypoints.
@@ -25,11 +35,11 @@ Create the build/web and build/android output folders first. These commands assu
 
 ## Native services
 
-AdMob uses Google's official test app/unit IDs. Main menus offer a banner, every two completed rounds create a natural interstitial opportunity, and valuable optional hints require an earned native reward. Consent/error/unavailable paths preserve ordinary play. Play Games is wired with symbolic achievement/leaderboard mappings and production configuration disabled pending real owner IDs/backend credentials. All required owner configuration points are documented in platform/config.json and docs/PLATFORM_SETUP.md.
+AdMob uses Google's official test app/unit IDs. Main menus offer a banner, every two completed rounds create a natural interstitial opportunity, and valuable optional hints require an earned native reward. Consent/error/unavailable paths preserve ordinary play. Play Games is wired with symbolic achievement/leaderboard mappings and production configuration disabled pending owner console IDs and configuration. All required owner configuration points are documented in platform/config.json and docs/PLATFORM_SETUP.md.
 
 ## Source and delivery
 
-Original code is Apache-2.0. Developer: [EthannYakabuski](https://github.com/EthannYakabuski). Third-party assets/plugins retain their supplied licenses and required notices. Hosted CI is intended to run meaningful game/service tests, export Android/Web and deploy Web to Pages. Build artifacts, caches and keys are excluded from source. See HANDOFF.txt for actual results and blockers; file/workflow presence alone does not establish verification.
+Original code is Apache-2.0. Developer: [EthannYakabuski](https://github.com/EthannYakabuski). Third-party assets/plugins retain their supplied licenses and required notices. Hosted CI runs game/service tests and exports Android/Web; Pages deployment remains explicitly disabled. Build artifacts, caches and keys are excluded from source. See HANDOFF.txt for actual results and blockers; file/workflow presence alone does not establish verification.
 
 Marketing assets, store/web copy, icons and screenshot provenance belong under marketing/. Human-owned next steps include final backend IDs/account setup, release signing, current Play eligibility checks, production service tests, human playtesting and Play publication. The first package is test-configured and must not be treated as Play-ready.
 
@@ -47,8 +57,10 @@ Android artifact.
 
 ## Public source and deployment status
 
-This repository publishes the existing local-test source package. The recorded HANDOFF and docs describe their dated local verification; they do not establish production service, physical-device, audio, browser or human acceptance.
+The public repository contains source, assets, notices and sanitized verification summaries. Original local QA APKs, raw SDK logs, real saves, signing material and private evidence stay outside tracked public content. Local restored build outputs remain ignored. Hosted export artifacts are separate binaries from the APK named in HANDOFF.txt and have not received that original native QA.
 
-GitHub-hosted build/test/artifact CI is configured. The Pages deployment job is explicitly skipped pending separate authorization; no live Pages site is claimed. No real saves, private coordinator evidence, credentials, signing identities or prebuilt APK/Web exports are committed. Build outputs remain CI artifacts.
+Pages remains disabled; no live deployment, Library action or Google Play publication is part of this handoff. Keep the complete third-party notices with redistributed source and builds.
 
-Apache-2.0 covers original project work. Third-party assets, fonts, engine and plugins retain their own terms in LICENSES and source notices; where present, Creature Mixer custom terms exclude NFT/blockchain projects and are not CC0.
+## Service configuration caution
+
+`admob.app_id` in JSON is a reference value: the Android manifest uses Godot Project Settings `admob/general/android/app_id`. The Services `test_mode` flag changes status wording; it does not turn production ad unit IDs into test requests. Keep Google sample IDs for development, or configure real test devices separately before production-ID testing.

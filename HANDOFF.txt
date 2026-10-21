@@ -1,30 +1,33 @@
-DEWDROP PLOT - LOCAL TEST SOURCE PACKAGE
-Sixty irrigation puzzles across six chapters: draw channels, manage gates and water,
-then release a visible pulse to meet the harvest order. Free Undo/Reset/retries,
-Daily plots, gifts/quests, growerXP and cosmetic colors provide progression.
+DEWDROP PLOT - CONTINUATION HANDOFF
+Updated 2026-10-21. Ready for owner local review; production release remains owner work.
 
-Current tested Android APK SHA256: ad2d32392b4c7a472d49b20f1c5023462daa0e1558b8402c63ee3e3f308b9103
-No prebuilt exports are committed. README.md has build/play instructions;
-docs/NATIVE_QA.json and docs/LOCAL_TEST_RESULTS.json summarize dated local checks.
-Store art/copy and nine reviewed emulator screenshots are included with notices.
+A portrait irrigation puzzle with sixty plots across six chapters, daily plots, harvest orders, grower progression and cosmetic palettes.
 
-Actual native play verified a3star ordinary clear/40coins35XP, a genuine earned hint,
-real interstitial, Daily80coins55XP plus30coin level bonus, repeat payouts0, and
-login20/checklist35 once. Hint edits one correction and assisted flags; it gives no
-immediate wallet reward or automatic completion. Early-unearned SDK branch unverified.
-Home itself preserves internal saved draft. New Grow Next/Plots entry starts a fresh
-attempt; no visible Resume Draft is promised. Android Back/ordinary navigation and all
-20typed cold/offline saved groups were tested. The original automation was interrupted;
-completed phone proof was preserved and a separate actual manual remainder finished
-six tablet roles/restart/restoration. Original automation completion is not claimed.
-Nine unchanged raw PNG roles were individually reviewed; no fixture/physical tablets.
-Emulator-only network/display settings were restored and the game safely stopped.
+WHERE TO CONTINUE
+Use this game folder as the single canonical Git working copy. Start a focused task here; read AGENTS.md, README.md and docs/PLATFORM_SETUP.md. New tasks must read these files and the requested change rather than assume earlier conversation context. Original folders and private QA records are retained separately by the local consolidation receipt, not inside public Git history.
 
-4107model/42menu checks,83isolated lifecycle checks/10touch transitions and8desktop
-fixtures are separate source evidence, not native proof. Physical devices/audio,
-interactive Web/production services, long-term balance and human acceptance unverified.
-Godot4.5.1 Compatibility minAPI24/targetAPI35 is an export constraint, not current Play
-eligibility. Owner supplies realIDs/signing/privacy/consent/store declarations and Play
-publication. Original work Apache2; retain LICENSE, NOTICE and LICENSES/third-party notices.
-Pages job is explicitly if:false and live deployment held; no hosted-CI/publication
-success is asserted by this local preparation.
+PUBLIC SOURCE / DATED HOSTED CI
+Repository: https://github.com/EthannYakabuski/dewdrop-plot
+Verified pre-consolidation source baseline: 2788003b300c0bf8ff400c39f50a33466b4a412d
+PASS: https://github.com/EthannYakabuski/dewdrop-plot/actions/runs/39527047278
+This run verifies that exact baseline. Later documentation or code commits require their own CI result. Pages deployment remains disabled; no live Pages/Library/Google Play publication is claimed.
+
+PRESERVED ORIGINAL LOCAL QA APK
+Local artifact, when restored: build/android/game-debug.apk
+SHA256: AD2D32392B4C7A472D49B20F1C5023462DAA0E1558B8402C63EE3E3F308B9103
+Compare this hash before calling a local binary the native-tested original. Keep matching notices with redistributed builds. No prebuilt APK is tracked publicly. Hosted CI artifacts are separately built binaries and do not inherit this native QA. Documentation-only consolidation needs no rebuild.
+
+DATED NATIVE VERIFICATION
+Actual ordinary play earned 3 stars/40 coins/35 XP. A genuine earned hint corrected one edge and marked assistance without immediate currency or automatic completion; assisted replay preserved the earlier unassisted-perfect record. Interstitial, daily/login/checklist once-only payouts and Back flows were observed. All 20 typed saved groups matched through offline cold launch/restart; nine unchanged captures were reviewed. Home preserves the internal saved draft, while Grow Next/Plots starts a fresh attempt: no visible Resume Draft is promised. The native early-unearned branch remains unverified. A bounded manual continuation completed interrupted tablet captures without replaying completed rewards.
+See docs/NATIVE_QA.json and docs/LOCAL_TEST_RESULTS.json for public dated details; their original publication-status wording is historical and superseded by the dated source/CI section above. Nine selected emulator screenshots remain under marketing/screenshots with relative hashes.
+
+OWNER CONFIGURATION / NEXT UPDATE
+- Map 18 achievement and 4 leaderboard keys from game/catalog.json in platform/config.json.
+- Supply the same numeric Play Games game ID in JSON and the Android preset export_presets.cfg; configure OAuth/package/signing fingerprints and testers before enabling play_games.
+- AdMob unit IDs are in platform/config.json. Set the manifest App ID separately through Godot Project Settings admob/general/android/app_id in project.godot; JSON app_id alone is insufficient.
+- test_mode changes wording only. Keep Google sample IDs for development; production unit IDs require separately configured test devices and appropriate owner consent/audience settings.
+- Preserve original local builds and real saves, isolate tests, implement the requested change, run affected strict tests and update this handoff with the actual result.
+
+LIMITATIONS / RELEASE WORK
+Godot4.5.1 Compatibility, Android primary and Web fallback; min API24/target API35 is the recorded engine export constraint, not current Google Play eligibility. One Android11/API30 x86 emulator and logical phone/tablet profiles were used. Physical devices, audible Android output (emulator audio was disabled), interactive Web/audio/WebGL, production services, broad ad-fill reliability, long sessions, multi-day/rollover behavior and human balance/content acceptance remain unverified. Offline saves and local clocks are not anti-cheat secure. Owner supplies real service/backend configuration, consent/privacy/audience declarations, signing and Google Play publication.
+Original work is Apache-2.0; retain LICENSE, NOTICE and complete LICENSES with source and distributions.
