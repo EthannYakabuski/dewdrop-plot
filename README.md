@@ -64,3 +64,7 @@ Pages remains disabled; no live deployment, Library action or Google Play public
 ## Service configuration caution
 
 `admob.app_id` in JSON is a reference value: the Android manifest uses Godot Project Settings `admob/general/android/app_id`. The Services `test_mode` flag changes status wording; it does not turn production ad unit IDs into test requests. Keep Google sample IDs for development, or configure real test devices separately before production-ID testing.
+
+## Round Three screenshot supplement
+
+Eighteen genuine Android images now provide six distinct views per logical phone, 7-inch and 10-inch profile. Nine original Home/planning/Journal images are retained byte-for-byte; nine ordinary roster/daily/palette views expand the same unchanged APK. See [the screenshot scope](docs/SCREENSHOTS_ROUND_THREE.md) and marketing/screenshots-round-three/capture-manifest.json. No rebuild or renewed gameplay/ad/offline acceptance is claimed. The original complete APK/source commit is unknown; source matching is limited to nine recorded runtime inputs.

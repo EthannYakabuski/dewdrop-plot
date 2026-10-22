@@ -1,0 +1,426 @@
+{
+  "schema": 2,
+  "game": "Dewdrop Plot",
+  "package": "com.ethannyakabuski.dewdropplot",
+  "runtime_source_commit": null,
+  "runtime_source_binding": "Exact preserved original APK hash; unknown complete build/source commit. No reproducible APK-to-current-Git binding claimed.",
+  "source_apk_sha256": "AD2D32392B4C7A472D49B20F1C5023462DAA0E1558B8402C63EE3E3F308B9103",
+  "source_apk_bytes": 183851862,
+  "source_version_attestation": {
+    "scope": "Nine recorded legacy runtime inputs match exact bytes or CRLF-only conversion; limited version attestation only.",
+    "inputs": {
+      "export_presets.cfg": {
+        "recorded_sha256": "0F8E9002722CF0E02174FE5DA6EE71320DABF85EFCBB13379D7C6DA7A9D267B6",
+        "current_sha256": "E944D688E4AE392CDB79810F2B3393EF5F7CA22F475393B0E884A8122B1D732E",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/board.gd": {
+        "recorded_sha256": "61466F94A9DE18F1B4E41535ECD6B7692F92FD26D0411A830D37E5C676F8355F",
+        "current_sha256": "61466F94A9DE18F1B4E41535ECD6B7692F92FD26D0411A830D37E5C676F8355F",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/catalog.json": {
+        "recorded_sha256": "A4E1C165C03B2B50E62113851FE47DEAA09C6578C441202ABE18E62C6EC03270",
+        "current_sha256": "EC6A8C26D40CFC3311E6C620B3251588887D0032D68AD60FDF8D584615F6B9F3",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/main.gd": {
+        "recorded_sha256": "F47F8E1E307F34F62E1FC554B75D46F6E1D56006329BB37766DD93EBFB905D88",
+        "current_sha256": "3744654B9BAF39A6231AC209013FB9ADCBA8ECE0F36E57240D3E97339EEF809C",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/model.gd": {
+        "recorded_sha256": "9F23639A44125AEEEB88B5799FEFDD9DBC13C47F39C9392CE1BC61E32A7FFBE1",
+        "current_sha256": "9F23639A44125AEEEB88B5799FEFDD9DBC13C47F39C9392CE1BC61E32A7FFBE1",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "game/plots.json": {
+        "recorded_sha256": "36EAF92E14A4D12F6843E10FD0C009AA7D6A03DDD6C0421E15FCA9376FE3EFD7",
+        "current_sha256": "36EAF92E14A4D12F6843E10FD0C009AA7D6A03DDD6C0421E15FCA9376FE3EFD7",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "platform/config.json": {
+        "recorded_sha256": "C429486E21723FA2F1EC8CCCC41F2405388E802D7814AA6F410BB522FAB6C513",
+        "current_sha256": "620F65781CD0C7B4900966D2267CF970D623C71B6005354667712D88F5782721",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "platform/services.gd": {
+        "recorded_sha256": "4B4C6E6751524097DEE623825B3384192AC0BE5251F2829FCFAADD293CF03356",
+        "current_sha256": "4B4C6E6751524097DEE623825B3384192AC0BE5251F2829FCFAADD293CF03356",
+        "comparison": "Raw exact or CRLF-only conversion"
+      },
+      "project.godot": {
+        "recorded_sha256": "8DD0463E6E99D7B50BE8B9140CC01FC9920323B66BB05ECBD5A5CF210202EC08",
+        "current_sha256": "8DD0463E6E99D7B50BE8B9140CC01FC9920323B66BB05ECBD5A5CF210202EC08",
+        "comparison": "Raw exact or CRLF-only conversion"
+      }
+    }
+  },
+  "capture_count": 18,
+  "retained_exact_count": 9,
+  "fresh_count": 9,
+  "capture_method": "Unmodified genuine Android guest PNGs. Nine exact prior Home/planning/Journal originals plus nine fresh ordinary roster/daily/palette menus. No crop, resize, rotation, overlay or fixture state.",
+  "fresh_timestamp_basis": "Associated action/capture-batch UTC timestamp; exact screenshot instant not separately recorded.",
+  "fresh_profile_readbacks": {
+    "phone": {
+      "size": "Physical size:1080x1920; no override",
+      "density": "Physical density:420; no override"
+    },
+    "7-inch": {
+      "size": "Physical size: 1080x1920\nOverride size: 1200x1920",
+      "density": "Physical density: 420\nOverride density: 320"
+    },
+    "10-inch": {
+      "size": "Physical size: 1080x1920\nOverride size: 1600x2560",
+      "density": "Physical density: 420\nOverride density: 300"
+    }
+  },
+  "captures": [
+    {
+      "file": "phone/01-home.png",
+      "profile": "phone",
+      "view": "home",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 94118,
+      "sha256": "EF5C8378B2353655A93183F415D6491E37A883A9B1BBFE98C5F3E5EFC42C661A",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/phone-home.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "phone/02-planning.png",
+      "profile": "phone",
+      "view": "planning",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 84866,
+      "sha256": "E91D3E474526C1E52D89627256F0A32056ADD8693601771587655BC76D5529EC",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/phone-play.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "phone/03-journal.png",
+      "profile": "phone",
+      "view": "journal",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 130252,
+      "sha256": "0819E960ABBD1052B39D0B689E24003722951CD0F297DD3F6F3C706351EC2B96",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/phone-collection.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "phone/04-plots-roster.png",
+      "profile": "phone",
+      "view": "plot-roster",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 122962,
+      "sha256": "DF70D19526E0EC598FED2864D8D917BB2C08CDEF631D5EB1BE99A15231E27F7F",
+      "action_record_utc": "2026-10-22T19:52:46.669745+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "phone/05-daily-overview.png",
+      "profile": "phone",
+      "view": "daily-overview",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 123970,
+      "sha256": "E1C5A550BF172E19E4D7F30A92DD7E03B2CD55C69EAE00EF8A026BF3C3A1FD33",
+      "action_record_utc": "2026-10-22T19:53:40.092070+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "phone/06-palette-overview.png",
+      "profile": "phone",
+      "view": "palette-overview",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "density": 420,
+      "bytes": 116334,
+      "sha256": "1BEE65387E73A3398CC5803FB18C69C5C49A42C2B0DF2AE04D3C85DFFFF30FE5",
+      "action_record_utc": "2026-10-22T19:54:39.084752+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "7inch/01-home.png",
+      "profile": "7-inch",
+      "view": "home",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "bytes": 98054,
+      "sha256": "520FC835F8AE1486D0464D91232CD8F3DD0B298B81B6741F989F55419EBF5760",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/tablet-7-home.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "7inch/02-planning.png",
+      "profile": "7-inch",
+      "view": "planning",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "bytes": 88746,
+      "sha256": "B514D5305214E35F4A9F4BC2F72BB511B82CFD938221DE3DC4070BB17992055F",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/tablet-7-play.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "7inch/03-journal.png",
+      "profile": "7-inch",
+      "view": "journal",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "bytes": 132215,
+      "sha256": "8E5129C21905261B6A71E609E6ED93B370B0F03E02942D296869DC86A93DB43A",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/tablet-7-collection.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "7inch/04-plots-roster.png",
+      "profile": "7-inch",
+      "view": "plot-roster",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 124907,
+      "sha256": "673E9D3E1FA2BF1D729818A2EE3895C69C8CCAD4FABB72EBA35616922756BF05",
+      "action_record_utc": "2026-10-22T20:00:13.564133+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "7inch/05-daily-overview.png",
+      "profile": "7-inch",
+      "view": "daily-overview",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 124795,
+      "sha256": "02965487606D440AB2CDC43366ED0A843D850DA8BC1BC679D961E99090B7EF5B",
+      "action_record_utc": "2026-10-22T19:59:20.692575+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "7inch/06-palette-overview.png",
+      "profile": "7-inch",
+      "view": "palette-overview",
+      "dimensions": [
+        1200,
+        1920
+      ],
+      "density": 320,
+      "bytes": 118222,
+      "sha256": "21953FA63290D11DD126B790A3A8F2DDA06A853565B8B8B73F9677BBBA2F85C8",
+      "action_record_utc": "2026-10-22T19:58:05.156708+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "10inch/01-home.png",
+      "profile": "10-inch",
+      "view": "home",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "bytes": 140950,
+      "sha256": "D646BD4955E70F35CC310FFD9FC8AE320A620CE2F3F494BDA337D74576031CAE",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/tablet-10-home.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "10inch/02-planning.png",
+      "profile": "10-inch",
+      "view": "planning",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "bytes": 122058,
+      "sha256": "8DBD2AE1A74EA5C46CF8067B900498955AAD8F7406F216A817E82F01D53A2A5D",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/tablet-10-play.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "10inch/03-journal.png",
+      "profile": "10-inch",
+      "view": "journal",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "bytes": 182036,
+      "sha256": "EA27FA7F8A695744B68EBB29F21EA771D821F027D38AB34165D315613B0E85B6",
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Retained exact accepted raw capture; independently viewed again for this expanded set.",
+      "provenance": {
+        "kind": "retained previously accepted original",
+        "prior_public_file": "marketing/screenshots/tablet-10-collection.png",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "10inch/04-plots-roster.png",
+      "profile": "10-inch",
+      "view": "plot-roster",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 172915,
+      "sha256": "4F1A5AC2A4ECD1BDBCDC5F2D76DEBCA24AAA4087FFB9679A5138F577C037AAC8",
+      "action_record_utc": "2026-10-22T20:03:37.106289+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "10inch/05-daily-overview.png",
+      "profile": "10-inch",
+      "view": "daily-overview",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 175416,
+      "sha256": "98E1C6BC23D9F06BBACE81CA84A69C5CD3A5977D395CE3BF367DD3391FA0DAFD",
+      "action_record_utc": "2026-10-22T20:04:23.568496+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    },
+    {
+      "file": "10inch/06-palette-overview.png",
+      "profile": "10-inch",
+      "view": "palette-overview",
+      "dimensions": [
+        1600,
+        2560
+      ],
+      "density": 300,
+      "bytes": 162174,
+      "sha256": "19EC1FC22627C4900A47059A568BD6FEDBFD4A0B1265DD178E51D1F6510FDDE3",
+      "action_record_utc": "2026-10-22T20:05:11.012078+00:00",
+      "exact_capture_instant_utc": null,
+      "raw_guest_png_unchanged": true,
+      "visual_review": "Accepted unchanged actual menu original after operator and independent coordinator visual/hash/dimension/profile review.",
+      "provenance": {
+        "kind": "fresh ordinary menu capture",
+        "same_exact_apk": true
+      }
+    }
+  ],
+  "root_review": "ACCEPTED_WITH_QUALIFICATIONS: all18 exact originals fully viewed and hashes/dimensions/provenance checked; six distinct views per logical profile.",
+  "session_preservation": "This session restored the genuine primary progress file only after temporary emulator-session loss; historical pending-service data, preferences or a backup were not restored or claimed retained. Normal UTC rollover changed only day, daily_counts, daily_done and quest_claimed. Currency, XP, the saved draft and all other durable data compared unchanged; no payout occurred. A fresh stopped archive verified the genuine current main, naturally autosaved backup and actual pending-service file. Original display/radio settings and normal Launcher were restored. This is restoration, not retention across the discarded session.",
+  "scope": "One Android11/API30 x86 emulator and logical profiles, not physical phone/tablet acceptance. Screenshot/menu expansion does not retest puzzle completion/hints/ads/claims/offline gameplay/production services/audible output/interactive Web.",
+  "private_records_distributed": false
+}

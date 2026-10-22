@@ -1,3 +1,13 @@
+DEWDROP PLOT - ROUND THREE SCREENSHOT SUPPLEMENT
+Updated 2026-10-22. Same preserved original QA APK; screenshot/document expansion only, no rebuild.
+
+Eighteen unchanged genuine Android screenshots now provide six distinct views per logical phone/7-inch/10-inch profile: nine exact retained Home/planning/Journal frames plus nine fresh roster/daily/palette menus. See marketing/screenshots-round-three/capture-manifest.json and docs/SCREENSHOTS_ROUND_THREE.md for exact hashes, dimensions, actual readbacks and retained/fresh qualifications.
+APK SHA256 AD2D32392B4C7A472D49B20F1C5023462DAA0E1558B8402C63EE3E3F308B9103 is unchanged. Its original complete build/source commit is unknown; nine recorded runtime inputs match only within their documented limited scope.
+This session restored the genuine primary progress file only after temporary emulator-session loss; historical pending-service data, preferences or a backup were not restored or claimed retained. Normal UTC rollover changed only day, daily_counts, daily_done and quest_claimed. Currency, XP, the saved draft and all other durable data compared unchanged; no payout occurred. A fresh stopped archive verified the genuine current main, naturally autosaved backup and actual pending-service file. Original display/radio settings and normal Launcher were restored. This is restoration, not retention across the discarded session.
+No renewed puzzle/earned-hint/claim/offline/production/physical/audio/Web acceptance follows from this menu expansion. Original APK/Web/archives and dated QA below remain distinct and unchanged. Separate screenshot/docs/notices ZIPs have their own source-document commit/hash receipt; later exact-commit CI is recorded separately through repository Actions.
+Pages, Library and Google Play publication remain outside this update.
+
+PRESERVED DATED HANDOFF
 DEWDROP PLOT - CONTINUATION HANDOFF
 Updated 2026-10-21. Ready for owner local review; production release remains owner work.
 
