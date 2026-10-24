@@ -1,5 +1,13 @@
 # Dewdrop Plot
 
+## Round Four: qualified Android App Bundle
+
+The accepted debug/test AAB is `build/round-four-aab-002/dewdrop-plot-debug.aab` (93663650 bytes), SHA256 `D44D9FCA95A06F5627B09DFADFB9B2239FFCD76BD2413F300EC3650BEAEB5120`. Build source: `d44a3f52b5daced1dd73c59d4b465c56a158b902`. The preset used minimum API 24/target API 35; Godot 4.5.1 Compatibility exported it successfully. The actual bundle passed six native ELF-header checks and matching 32/64-bit library coverage for ARM64, x86 and x86_64.
+
+Round Four scope is the Android build correction only; gameplay, service IDs and genuine saves were not changed by this delivery.
+
+This AAB has not been installed/native-tested, production-signed or uploaded to Play. Earlier native QA and screenshots below remain tied to their named older APKs. The Round Four source/documentation has not yet received verified exact-commit public CI; publication/CI remains pending. Owner release signing, an unused version code, current Play checks and real-service/device testing remain separate. See [Android changes](docs/ROUND_FOUR_ANDROID.md), [platform setup](docs/PLATFORM_SETUP.md) and [handoff](HANDOFF.txt).
+
 One tank, a clever little garden.
 
 A bright irrigation and harvest-planning puzzle with sixty plots across six chapters. Route limited water to the crops in each harvest order, watch the garden bloom and grow your skills.
@@ -28,7 +36,8 @@ Use Godot **4.5.1 Compatibility**, matching export templates, Java17 and the And
 godot --headless --editor --path . --import
 godot --headless --path . --script platform/tests/services_smoke.gd
 godot --headless --path . --export-release Web build/web/index.html
-godot --headless --path . --install-android-build-template --export-debug Android build/android/game-debug.apk
+godot --headless --path . --install-android-build-template --export-debug Android build/android/game-debug.aab
+python tools/verify_android_bundle.py build/android/game-debug.aab --preset export_presets.cfg
 ```
 
 Create the build/web and build/android output folders first. These commands assume a `godot` executable on PATH; on Windows substitute the installed Godot executable, using PowerShell's `&` call operator for a quoted path. No Windows desktop build is supplied.
