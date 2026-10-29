@@ -2,6 +2,7 @@ extends Control
 
 const Model = preload("res://game/model.gd")
 const Board = preload("res://game/board.gd")
+const RESULT_STAR: Texture2D = preload("res://assets/ui/star-gold.svg")
 const INK: Color = Color("173d3a")
 const CREAM: Color = Color("fff3d4")
 const WATER: Color = Color("2c9da7")
@@ -258,7 +259,10 @@ func _result_screen() -> void:
 	_header("THE GARDEN BLOOMS" if ok else "A LITTLE MORE PLANNING", "Harvest delivered. The rest can wait." if ok else "Water is precious. Your next try is free.")
 	_panel(Rect2(24, 145, 492, 412), INK, 22)
 	_sprite(84 if ok else 73, Rect2(209, 166, 122, 122))
-	_label("★".repeat(int(pulse_result.get("stars", 0))) if ok else "TRY ANOTHER ROUTE", Rect2(38, 302, 464, 55), 43 if ok else 29, GOLD, HORIZONTAL_ALIGNMENT_CENTER)
+	if ok:
+		_result_stars(clampi(int(pulse_result.get("stars", 0)), 0, 3))
+	else:
+		_label("TRY ANOTHER ROUTE", Rect2(38, 302, 464, 55), 29, GOLD, HORIZONTAL_ALIGNMENT_CENTER)
 	_label("%d used  +  %d saved  =  %d drops" % [int(pulse_result.get("consumed", 0)), int(pulse_result.get("left", 0)), int(pulse_result.get("supply", 0))], Rect2(39, 374, 462, 40), 23, CREAM, HORIZONTAL_ALIGNMENT_CENTER)
 	var summary: String = ""
 	if ok:
@@ -280,6 +284,27 @@ func _result_screen() -> void:
 		_button("Reset the channels", Rect2(24, 677, 492, 54), func(): model.reset_plan(); pulse_result = {}; _show("play"), true)
 	_button("Visit the garden colors", Rect2(24, 764, 492, 54), func(): _show("garden"), true)
 	_label("A star for the order, one for saving water,\none for staying within the channel target.", Rect2(35, 839, 470, 57), 16, MUTED, HORIZONTAL_ALIGNMENT_CENTER)
+
+func _result_stars(count: int) -> void:
+	# Award icons must render without a platform font's optional star glyph.
+	var row: HBoxContainer = HBoxContainer.new()
+	row.name = "ResultStars"
+	row.position = Vector2(38, 299); row.size = Vector2(464, 48)
+	row.alignment = BoxContainer.ALIGNMENT_CENTER
+	row.add_theme_constant_override("separation", 8)
+	row.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	stage.add_child(row)
+	for index: int in range(count):
+		var icon: TextureRect = TextureRect.new()
+		icon.name = "EarnedStar%d" % (index + 1)
+		icon.texture = RESULT_STAR
+		icon.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		icon.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		icon.custom_minimum_size = Vector2(48, 48)
+		icon.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		row.add_child(icon)
+	var count_label: Label = _label("%d of 3 stars" % count, Rect2(38, 349, 464, 23), 16, GOLD, HORIZONTAL_ALIGNMENT_CENTER)
+	count_label.name = "ResultStarCount"
 
 func _levels() -> void:
 	_header("TEN LITTLE SEASONS", "%d / 100 plots  ·  %d / 300 stars" % [model.records.size(), model.stars()])
