@@ -3,6 +3,7 @@ extends RefCounted
 
 const WIDTH: int = 7
 const CELLS: int = 49
+const CAMPAIGN_PLOTS: int = 100
 const CROPS: Dictionary = {
 	"carrot": {"name": "Carrot", "seed": 4, "grown": 6, "icon": 8, "color": "e8a34c"},
 	"turnip": {"name": "Turnip", "seed": 16, "grown": 18, "icon": 20, "color": "ce95b9"},
@@ -11,7 +12,7 @@ const CROPS: Dictionary = {
 	"lettuce": {"name": "Lettuce", "seed": 52, "grown": 54, "icon": 56, "color": "8bc37a"},
 	"wheat": {"name": "Wheat", "seed": 64, "grown": 66, "icon": 68, "color": "d5b15b"}
 }
-const CHAPTERS: Array = ["First furrows", "Pebble paths", "Market baskets", "The gatehouse", "Twin wells", "Harvest festival"]
+const CHAPTERS: Array = ["First furrows", "Pebble paths", "Market baskets", "The gatehouse", "Twin wells", "Harvest festival", "Glasshouse galleries", "Shared cisterns", "Orchard branches", "Evening allotments"]
 const STYLES: Array = [
 	{"name": "Morning meadow", "price": 0, "grass": "a3cf86", "soil": "b78960", "water": "45bcc5"},
 	{"name": "Peach sunrise", "price": 250, "grass": "c0cb89", "soil": "c49577", "water": "5eb6be"},
@@ -107,7 +108,7 @@ static func state_from(pairs: Array) -> Dictionary:
 	return out
 
 func start_plot(id: int, is_daily: bool = false) -> bool:
-	if id < 0 or id >= 60: return false
+	if id < 0 or id >= CAMPAIGN_PLOTS: return false
 	if not is_daily and id > unlocked_plot(): return false
 	current_id = id; daily_mode = is_daily; plot = definition(id)
 	edges = {}; open_gates = []; history = []; assisted = false; hint_used = false
@@ -116,8 +117,8 @@ func start_plot(id: int, is_daily: bool = false) -> bool:
 
 func unlocked_plot() -> int:
 	var next: int = 0
-	while next < 60 and records.has(str(next)): next += 1
-	return mini(next, 59)
+	while next < CAMPAIGN_PLOTS and records.has(str(next)): next += 1
+	return mini(next, CAMPAIGN_PLOTS - 1)
 
 func level() -> int:
 	return 1 + int(sqrt(float(xp) / 45.0))
@@ -368,7 +369,7 @@ func load_data(data: Dictionary) -> void:
 	var raw: Variant = data.get("records", {})
 	if raw is Dictionary:
 		for key: Variant in raw:
-			if str(key).is_valid_int() and int(key) >= 0 and int(key) < 60 and raw[key] is Dictionary:
+			if str(key).is_valid_int() and int(key) >= 0 and int(key) < CAMPAIGN_PLOTS and raw[key] is Dictionary:
 				var value: Dictionary = raw[key]; var rating: int = clampi(int(value.get("stars", 0)), 0, 3)
 				if rating > 0: records[str(key)] = {"stars": rating, "reserve": clampi(int(value.get("reserve", 0)), 0, 99), "unassisted_perfect": bool(value.get("unassisted_perfect", false)) and rating == 3}
 	total_harvests = clampi(int(data.get("harvests", 0)), 0, 9999999); saved_water = clampi(int(data.get("water", 0)), 0, 9999999)
@@ -390,7 +391,7 @@ func load_data(data: Dictionary) -> void:
 			for key: String in daily_counts: daily_counts[key] = clampi(int(data.daily_counts.get(key, 0)), 0, 99999)
 	login_day = str(data.get("login_day", "")); login_streak = clampi(int(data.get("login_streak", 0)), 0, 7)
 	var draft: Variant = data.get("draft", {})
-	if draft is Dictionary and start_plot(clampi(int(draft.get("id", 0)), 0, 59), bool(draft.get("daily", false))):
+	if draft is Dictionary and start_plot(clampi(int(draft.get("id", 0)), 0, CAMPAIGN_PLOTS - 1), bool(draft.get("daily", false))):
 		if draft.get("edges", []) is Array:
 			for pair: Array in pairs_from(state_from(draft.edges)):
 				if pair[0] not in plot.rocks and pair[1] not in plot.rocks: edges[edge_key(pair[0], pair[1])] = true

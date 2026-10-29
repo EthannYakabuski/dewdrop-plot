@@ -11,7 +11,7 @@ SEO META TITLE
 Dewdrop Plot | Water & Harvest Puzzles
 
 SEO META DESCRIPTION
-Draw water channels, choose a harvest and solve 60 garden puzzles. Limited supply, gates and crop costs make every drop a thoughtful little decision.
+Draw water channels, choose a harvest and solve 100 garden puzzles. Limited supply, gates and crop costs make every drop a thoughtful little decision.
 
 THREE SELLING CARDS
 One tank, a clever little garden
@@ -21,7 +21,7 @@ Draw the route, then watch it bloom
 Sketch channels, set the gates, and release a single watering pulse through your plan. Undo, reset and retry freely.
 
 Harvest more by wasting less
-Solve 60 plots, grow your experience, and chase unassisted three-star records. A daily challenge brings a fresh little goal.
+Solve 100 plots, grow your experience, and chase unassisted three-star records. A daily challenge brings a fresh little goal.
 
 TECHNICAL INFORMATION
 Made with Godot 4.5.1 Compatibility. Portrait Android is primary, with single-threaded Web support. Local saves keep core puzzles available offline. Native Google Play Games and ad services require final owner configuration and real-service/device checks. Web uses graceful unavailable-service behavior and never simulates earned rewards. Original work is Apache-2.0; supplied Kenney source art retains its CC0 notice.

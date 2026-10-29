@@ -1,3 +1,7 @@
+ROUND FIVE - 100-PLOT CAMPAIGN EXTENSION
+Updated 2026-10-29. Forty fixed plots add four chapters after the original 60. Original definitions and saved progress are retained. Campaign bounds, roster and stars now cover 100 plots / 300 stars. All 100 stored witnesses pass the actual runtime simulator with three stars and conserved water. Isolated source checks passed: model 7403, Round Five 262, menu layout 42, UI and service smoke; strict diagnostics empty. Existing 60-plot save continuity and final-chapter roster access pass. Fresh exported-build visuals and Android/device play remain pending; source tests do not establish human difficulty or device acceptance. See docs/ROUND_FIVE.md. Prior artifact identities below are preserved and are not evidence for the new content.
+
+PRESERVED EARLIER HANDOFF
 ROUND FOUR - QUALIFIED ANDROID BUILD-ONLY HANDOFF
 Updated 2026-10-24. Local bundle validation passed. Public source revision 8ee56fb2127815c37b4d43b8b4b8f8b592430a67 has exact-commit hosted CI SUCCESS: https://github.com/EthannYakabuski/dewdrop-plot/actions/runs/40125411635. Native/device acceptance remains pending.
 

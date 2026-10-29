@@ -33,7 +33,7 @@
       "key": "dew_sixty",
       "name": "Festival grower",
       "title": "Festival grower",
-      "description": "Complete all 60 plots.",
+      "description": "Complete 60 plots.",
       "stat": "plots",
       "threshold": 60,
       "icon": "marketing/achievements/dew_sixty.png"

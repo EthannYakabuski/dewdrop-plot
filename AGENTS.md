@@ -1,6 +1,6 @@
 # Dewdrop Plot: working agreement
 
-This folder is the canonical Git working copy. Work only on this game and the requested update; do not launch another game or treat archived publication copies as parallel development locations. Round Four is authorized; this requested task is build-only. Do not add gameplay changes or another game without a new request.
+This folder is the canonical Git working copy. Work only on this game and the requested update; do not launch another game or treat archived publication copies as parallel development locations. Round Five is authorized; this requested task extends the existing campaign to 100 plots. Do not add gameplay changes or another game without a new request.
 
 Before editing, read README.md, HANDOFF.txt and docs/PLATFORM_SETUP.md, then inspect git status, branch/upstream and origin. A fresh task must load these files; prior chat history is not assumed. Preserve user edits and local artifacts. Do not reset/clean an existing worktree or delete backups.
 
@@ -22,6 +22,7 @@ Import once with `godot --headless --editor --path . --import`. Run the affected
 godot --headless --path . --script tests/test_menu_layout.gd
 godot --headless --path . --script tests/test_model.gd
 godot --headless --path . --script tests/test_ui.gd
+godot --headless --path . --script tests/test_round_five.gd -- --qa-isolated
 ```
 
 For documentation-only changes, review text/links and the staged diff; do not rebuild or overwrite the preserved original QA APK. Runtime/service changes require relevant tests and an explicit native retest plan; desktop callbacks and CI exports do not establish native SDK behavior.
@@ -33,3 +34,5 @@ Read the exact mapping contract in docs/PLATFORM_SETUP.md. PGS IDs start blank/d
 Stage only reviewed project changes. Keep build outputs, raw SDK/log evidence, real saves, private handoffs/checkpoints, signing material and credentials out of public commits. Gitignore cannot protect private content copied over an already tracked QA document; keep public summaries sanitized and use relative artifact filenames. Preserve LICENSE/NOTICE/LICENSES and dependency terms. No force push, Pages activation, Library action, production signing or Google Play publication is implied by a normal iteration. After an approval denial, stop that action and report its exact target/payload/outcome; do not bypass or repeat it without materially new relevant authority.
 
 When done, report changed behavior, actual tests, remaining limitations and artifact identity; update HANDOFF.txt without claiming old native QA applies to new binaries.
+
+Round Five: first 60 definitions and saved IDs are retained; use CAMPAIGN_PLOTS and CHAPTERS for campaign bounds. All 100 stored witnesses must pass Model.simulate with three stars. New 40 cover split/shared/branched tank layouts; do not replace content with seeds or relabel old screenshots. Preserve curated daily pool and all owner configuration. Run tests/test_round_five.gd with existing suites under process-isolated data.

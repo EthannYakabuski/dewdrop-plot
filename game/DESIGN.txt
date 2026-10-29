@@ -16,7 +16,7 @@ does not harvest. Channels themselves do not consume water. Used + reserve = sup
 for every component and every pulse. This is deterministic graph allocation, not
 fluid physics. The UI shows costs before release and consumption after release.
 
-60 stored distinct arrangements span six ten-plot chapters. Two early tutorials,
+100 stored distinct arrangements span ten ten-plot chapters. Two early tutorials,
 then rocks, wider crop orders, gates and two-tank puzzles appear gradually. Every
 stored witness is checked by the exact production simulate() method. First-clear
 and improved-star rewards are idempotent; replays never farm the same reward.

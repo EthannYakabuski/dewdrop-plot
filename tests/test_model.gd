@@ -22,7 +22,7 @@ func solution(data: Dictionary) -> Dictionary:
 
 func _test_campaign() -> void:
 	var plots: Array = Model.all_plots(); var signatures: Dictionary = {}; var optional_failures: int = 0
-	check(plots.size() == 60, "Campaign does not contain 60 actual plots")
+	check(plots.size() == 100, "Campaign does not contain 100 actual plots")
 	for id: int in range(plots.size()):
 		var p: Dictionary = plots[id]
 		check(int(p.id) == id and int(p.chapter) == int(id / 10), "Campaign chapter/id mismatch")
@@ -130,11 +130,11 @@ func _test_progression() -> void:
 	check(a.choose_style(1) and a.coins == 50, "Owned cosmetic charged twice")
 	check(not a.choose_style(99), "Invalid cosmetic selected")
 	var campaign: RefCounted = Model.new("2026-10-20")
-	for id: int in range(60):
+	for id: int in range(100):
 		check(campaign.start_plot(id), "Sequential campaign progression blocked")
 		campaign.edges = Model.state_from(campaign.plot.solution.edges); campaign.open_gates = campaign.plot.solution.open_gates.duplicate()
 		check(not campaign.finish_plot(campaign.pulse()).is_empty(), "Campaign witness failed to pay")
-	check(campaign.records.size() == 60 and campaign.stars() == 180 and campaign.perfect() == 60, "Complete campaign stats incorrect")
+	check(campaign.records.size() == 100 and campaign.stars() == 300 and campaign.perfect() == 100, "Complete campaign stats incorrect")
 	check(campaign.level() >= 8 and campaign.total_harvests > 150 and campaign.saved_water > 50, "Campaign progression too small")
 
 func _test_daily() -> void:

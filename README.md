@@ -1,5 +1,10 @@
 # Dewdrop Plot
 
+## Round Five: one hundred garden puzzles
+
+The campaign now contains 100 fixed plots across ten chapters. The original 60 definitions and IDs are unchanged. Four new chapters add split gardens, shared-cistern puzzles that require linking unequal tanks, branched crop beds and shared gated branches. All additions store their full layout, harvest order, budgets and witness route rather than just a seed. The campaign roster, progression, stars and draft/save bounds extend through plot 100; existing achievement milestones and the curated daily pool remain compatible. [Acceptance and verification](docs/ROUND_FIVE.md) separates actual simulator/source checks from device playtesting.
+
+
 ## Round Four: qualified Android App Bundle
 
 The accepted debug/test AAB is `build/round-four-aab-002/dewdrop-plot-debug.aab` (93663650 bytes), SHA256 `D44D9FCA95A06F5627B09DFADFB9B2239FFCD76BD2413F300EC3650BEAEB5120`. Build source: `d44a3f52b5daced1dd73c59d4b465c56a158b902`. The preset used minimum API 24/target API 35; Godot 4.5.1 Compatibility exported it successfully. The actual bundle passed six native ELF-header checks and matching 32/64-bit library coverage for ARM64, x86 and x86_64.
@@ -10,7 +15,7 @@ This AAB has not been installed/native-tested, production-signed or uploaded to 
 
 One tank, a clever little garden.
 
-A bright irrigation and harvest-planning puzzle with sixty plots across six chapters. Route limited water to the crops in each harvest order, watch the garden bloom and grow your skills.
+A bright irrigation and harvest-planning puzzle with one hundred plots across ten chapters. Route limited water to the crops in each harvest order, watch the garden bloom and grow your skills.
 
 ## Play
 

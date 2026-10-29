@@ -157,14 +157,14 @@ func _home() -> void:
 	hero.pulsing = true; hero.pulse_progress = 1; hero.result = hero_model.pulse(); stage.add_child(hero)
 	_sprite(84, Rect2(43, 310, 68, 68)); _sprite(8, Rect2(434, 243, 60, 60)); _sprite(32, Rect2(439, 341, 60, 60))
 	var stat_names: Array = ["PLOTS", "STARS", "GROWER"]
-	var stat_values: Array = ["%d / 60" % model.records.size(), "%d / 180" % model.stars(), "Level %d" % model.level()]
+	var stat_values: Array = ["%d / 100" % model.records.size(), "%d / 300" % model.stars(), "Level %d" % model.level()]
 	for i: int in range(3):
 		_panel(Rect2(24 + i * 168, 493, 156, 79), Color("e6e7c5"), 13)
 		_label(stat_names[i], Rect2(35 + i * 168, 502, 134, 20), 12, MUTED, HORIZONTAL_ALIGNMENT_CENTER)
 		_label(stat_values[i], Rect2(30 + i * 168, 530, 144, 30), 23, INK, HORIZONTAL_ALIGNMENT_CENTER)
 	_button("GROW THE NEXT PLOT  →", Rect2(24, 600, 492, 67), func(): _start(model.unlocked_plot()), false)
 	_button("Daily garden  ·  " + ("complete" if model.daily_done else "fresh today"), Rect2(24, 683, 492, 55), func(): _show("daily"), true)
-	_button("60 little plots", Rect2(24, 756, 240, 54), func(): _show("levels"), true)
+	_button("100 little plots", Rect2(24, 756, 240, 54), func(): _show("levels"), true)
 	_button("Garden colors", Rect2(278, 756, 238, 54), func(): _show("garden"), true)
 	_label("%d coins  ·  %d XP" % [model.coins, model.xp], Rect2(25, 828, 490, 27), 17, MUTED, HORIZONTAL_ALIGNMENT_CENTER)
 	_button("Journal", Rect2(24, 860, 235, 56), func(): _show("journal"), true)
@@ -197,6 +197,7 @@ func _play_screen() -> void:
 	var help: String = "Drag between squares to draw a channel."
 	if model.current_id == 0: help = "Drag from the blue tank through both + beds."
 	elif model.current_id == 1: help = "The hollow-circle bed is optional. Save your water."
+	elif bool(p.get("pooling_required", false)): help = "Open gates and link both tanks to share their water."
 	elif not p.gates.is_empty(): help = "Tap a wooden gate to open or close it."
 	elif p.sources.size() == 2: help = "Two tanks: connect them to share their supply."
 	status_label = _label(help, Rect2(27, 717, 486, 29), 16, INK, HORIZONTAL_ALIGNMENT_CENTER)
@@ -271,7 +272,7 @@ func _result_screen() -> void:
 	if ok:
 		_button("NEXT LITTLE PLOT  →" if not model.daily_mode else "TODAY'S GOOD THINGS", Rect2(24, 588, 492, 64), func():
 			if model.daily_mode: _show("daily")
-			elif model.current_id < 59: _start(model.current_id + 1)
+			elif model.current_id < Model.CAMPAIGN_PLOTS - 1: _start(model.current_id + 1)
 			else: _show("levels"))
 		_button("Replay this plot", Rect2(24, 677, 492, 54), func(): _start(model.current_id, model.daily_mode), true)
 	else:
@@ -281,10 +282,10 @@ func _result_screen() -> void:
 	_label("A star for the order, one for saving water,\none for staying within the channel target.", Rect2(35, 839, 470, 57), 16, MUTED, HORIZONTAL_ALIGNMENT_CENTER)
 
 func _levels() -> void:
-	_header("SIX LITTLE SEASONS", "%d / 60 plots  ·  %d / 180 stars" % [model.records.size(), model.stars()])
+	_header("TEN LITTLE SEASONS", "%d / 100 plots  ·  %d / 300 stars" % [model.records.size(), model.stars()])
 	var scroll: ScrollContainer = ScrollContainer.new(); scroll.position = Vector2(24, 136); scroll.size = Vector2(492, 745); stage.add_child(scroll)
-	var holder: Control = Control.new(); holder.mouse_filter = Control.MOUSE_FILTER_PASS; holder.custom_minimum_size = Vector2(475, 1180); scroll.add_child(holder)
-	for chapter: int in range(6):
+	var holder: Control = Control.new(); holder.mouse_filter = Control.MOUSE_FILTER_PASS; holder.custom_minimum_size = Vector2(475, Model.CHAPTERS.size() * 197); scroll.add_child(holder)
+	for chapter: int in range(Model.CHAPTERS.size()):
 		var y: float = chapter * 197
 		var label: Label = Label.new(); label.text = "%02d  %s" % [chapter + 1, Model.CHAPTERS[chapter]]; label.position = Vector2(4, y); label.size = Vector2(470, 34); label.add_theme_font_size_override("font_size", 23); label.add_theme_color_override("font_color", INK); holder.add_child(label)
 		for local: int in range(10):

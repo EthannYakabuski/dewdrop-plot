@@ -1,0 +1,79 @@
+{
+  "round": 5,
+  "date_utc": "2026-10-29",
+  "scope": "Extend campaign from 60 to 100 fixed solution-verified puzzles. Preserve original 60 and existing saves/IDs.",
+  "criteria": [
+    {
+      "criterion": "100 complete fixed layouts in ten chapters; 40 new geometries distinct under rotations/reflections",
+      "status": "source_pass",
+      "evidence": "tests/test_model.gd and tests/test_round_five.gd"
+    },
+    {
+      "criterion": "All 100 stored solutions attain three stars and conserve water in Model.simulate",
+      "status": "source_pass",
+      "evidence": "tests/test_model.gd"
+    },
+    {
+      "criterion": "New gates and 20 shared-tank links have functional consequences",
+      "status": "source_pass",
+      "evidence": "tests/test_round_five.gd; closed-gate and required-link removal failure cases"
+    },
+    {
+      "criterion": "Original 60 objects and saved progress remain compatible; final roster/draft opens plot 100",
+      "status": "source_pass",
+      "evidence": "Exact original-content digest, legacy schema-1 fixtures, real Window roster interaction in isolated source test"
+    }
+  ],
+  "tests": [
+    {
+      "script": "IMPORT",
+      "status": "pass",
+      "strict_errors": []
+    },
+    {
+      "script": "tests/test_model.gd",
+      "status": "pass",
+      "strict_errors": []
+    },
+    {
+      "script": "tests/test_round_five.gd",
+      "status": "pass",
+      "strict_errors": []
+    },
+    {
+      "script": "tests/test_menu_layout.gd",
+      "status": "pass",
+      "strict_errors": []
+    },
+    {
+      "script": "tests/test_ui.gd",
+      "status": "pass",
+      "strict_errors": []
+    },
+    {
+      "script": "platform/tests/services_smoke.gd",
+      "status": "pass",
+      "strict_errors": []
+    }
+  ],
+  "check_counts": {
+    "tests/test_model.gd": 7403,
+    "tests/test_round_five.gd": 262,
+    "tests/test_menu_layout.gd": 42
+  },
+  "runtime_input_sha256": {
+    "game/model.gd": "9E3E67338C38543FDDD3F8AC7AA6ECFEE7B0BB1D69EF216F6C675FD230BD58D2",
+    "game/main.gd": "7E50DE25CD4F287EA57643929338A374DF52A4A5A525D12EE93ACF774FADC2CE",
+    "game/plots.json": "28F8966B5B515A8711A5BB308232EEA629B9EA7F4189D85C73D870076FE497CB",
+    "game/catalog.json": "C581329C9D6F82113090028D9ACFC7B1295BBEF24307A420DA207180FE008BDE",
+    "tests/test_model.gd": "C553E925A8024B6D8ED1156373463BAC57B4E3B32E80FB29A410275DD7DB98E9",
+    "tests/test_round_five.gd": "CFB8205425073F2E56B917C5E61A4806D9B3F1279DCD7BDEA3B7D14ECBA6A89D"
+  },
+  "pending": [
+    "Interactive final Web presentation review",
+    "Fresh Android/device gameplay and touch checks",
+    "Human puzzle difficulty review",
+    "Production signed-in SDK/backend validation"
+  ],
+  "artifact_provenance": "Existing AABs, ZIPs and screenshots keep their dated older-build identities; this source delivery does not relabel them."
+}
