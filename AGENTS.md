@@ -36,3 +36,7 @@ Stage only reviewed project changes. Keep build outputs, raw SDK/log evidence, r
 When done, report changed behavior, actual tests, remaining limitations and artifact identity; update HANDOFF.txt without claiming old native QA applies to new binaries.
 
 Round Five: first 60 definitions and saved IDs are retained; use CAMPAIGN_PLOTS and CHAPTERS for campaign bounds. All 100 stored witnesses must pass Model.simulate with three stars. New 40 cover split/shared/branched tank layouts; do not replace content with seeds or relabel old screenshots. Preserve curated daily pool and all owner configuration. Run tests/test_round_five.gd with existing suites under process-isolated data.
+
+## Authorized Web Pages continuation (2026-11-05)
+
+The owner explicitly requested this game's public GitHub Pages deployment. Read docs/WEB_PAGES.md. Preserve strict source and Android/Web gates; publish only build/web with notices and the whitelisted build identity. Pages permission is scoped to this repository, not a website change, new game, Android store release or credential/security change. Existing historical Pages-held statements describe earlier tasks. Verify exact remote SHA, terminal Actions/deployment, served build-info identity and actual browser/iframe scope before reporting a revision ready. Preserve owner edits and genuine saves.

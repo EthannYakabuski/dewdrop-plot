@@ -1,5 +1,10 @@
 # Dewdrop Plot
 
+## Play on the Web
+
+Stable URL: [https://ethannyakabuski.github.io/dewdrop-plot/](https://ethannyakabuski.github.io/dewdrop-plot/). Main-branch CI now has the requested Pages deployment path after all existing validation/build gates. Confirm the exact Actions deployment and `build-info.json` source commit before claiming a revision live. See [Web and iframe integration](docs/WEB_PAGES.md) for browser/service/save limitations. The website itself is unchanged.
+
+
 ## Round Five: one hundred garden puzzles
 
 The campaign now contains 100 fixed plots across ten chapters. The original 60 definitions and IDs are unchanged. Four new chapters add split gardens, shared-cistern puzzles that require linking unequal tanks, branched crop beds and shared gated branches. All additions store their full layout, harvest order, budgets and witness route rather than just a seed. The campaign roster, progression, stars and draft/save bounds extend through plot 100; existing achievement milestones and the curated daily pool remain compatible. [Acceptance and verification](docs/ROUND_FIVE.md) separates actual simulator/source checks from device playtesting.
@@ -53,7 +58,7 @@ AdMob uses Google's official test app/unit IDs. Main menus offer a banner, every
 
 ## Source and delivery
 
-Original code is Apache-2.0. Developer: [EthannYakabuski](https://github.com/EthannYakabuski). Third-party assets/plugins retain their supplied licenses and required notices. Hosted CI runs game/service tests and exports Android/Web; Pages deployment remains explicitly disabled. Build artifacts, caches and keys are excluded from source. See HANDOFF.txt for actual results and blockers; file/workflow presence alone does not establish verification.
+Original code is Apache-2.0. Developer: [EthannYakabuski](https://github.com/EthannYakabuski). Third-party assets/plugins retain their supplied licenses and required notices. Hosted CI runs game/service tests and exports Android/Web; Main-branch Pages deployment follows the existing strict build/test gates; see docs/WEB_PAGES.md. Build artifacts, caches and keys are excluded from source. See HANDOFF.txt for actual results and blockers; file/workflow presence alone does not establish verification.
 
 Marketing assets, store/web copy, icons and screenshot provenance belong under marketing/. Human-owned next steps include final backend IDs/account setup, release signing, current Play eligibility checks, production service tests, human playtesting and Play publication. The first package is test-configured and must not be treated as Play-ready.
 
@@ -73,7 +78,7 @@ Android artifact.
 
 The public repository contains source, assets, notices and sanitized verification summaries. Original local QA APKs, raw SDK logs, real saves, signing material and private evidence stay outside tracked public content. Local restored build outputs remain ignored. Hosted export artifacts are separate binaries from the APK named in HANDOFF.txt and have not received that original native QA.
 
-Pages remains disabled; no live deployment, Library action or Google Play publication is part of this handoff. Keep the complete third-party notices with redistributed source and builds.
+Pages deployment is now separately requested through CI; see docs/WEB_PAGES.md for its URL and verification contract. Library actions and Google Play publication remain outside this update. Keep the complete third-party notices with redistributed source and builds.
 
 ## Service configuration caution
 

@@ -54,7 +54,7 @@ The Android preset intentionally uses `runnable=false`. CLI exports still work; 
 
 Enable `rendering/textures/vram_compression/import_etc2_astc=true` in project settings before importing assets for Android. Keep desktop texture import enabled for Web. Tests, test-only platform scripts, captures, marketing packages, helper scripts, logs and documentation are excluded from shipping resource packs. Copy the app icon to `platform/app-icon-512.png` and point the project icon setting there so excluding `marketing/` does not remove its runtime resource. Game catalogs and runtime art/audio remain included.
 
-Hosted Actions verifies pinned Godot download digests, builds and validates the native Android AAB, validates Web/editor service fallback behavior, discovers and runs `tests/test_*.gd`, `tests/*_test.gd`, and `tests/smoke.gd` (requiring at least one), exports Web, retains Android artifacts seven days, and leaves Pages deployment explicitly disabled. Test processes have bounded timeouts; logs containing script/parse/assertion errors fail even if Godot exits0. CI does not substitute for human playtesting or verify unpublished Google service IDs. Do not enable Pages or change deployment settings as part of an ordinary code or ID update.
+Hosted Actions verifies pinned Godot download digests, builds and validates the native Android AAB, validates Web/editor service fallback behavior, discovers and runs `tests/test_*.gd`, `tests/*_test.gd`, and `tests/smoke.gd` (requiring at least one), exports Web, retains Android artifacts seven days, and deploys the Web artifact to GitHub Pages only after these gates pass. Test processes have bounded timeouts; logs containing script/parse/assertion errors fail even if Godot exits0. CI does not substitute for human playtesting or verify unpublished Google service IDs. The owner's separate 2026-11-05 Web deployment request enables this repository's Pages path; see WEB_PAGES.md. Other account/deployment changes remain separately scoped.
 
 ## Vendored dependencies and notices
 
@@ -93,3 +93,7 @@ For documentation-only changes, review the diff and links; do not rebuild or ove
 Verified pre-consolidation public baseline: `2788003b300c0bf8ff400c39f50a33466b4a412d`.
 [Hosted build/test run](https://github.com/EthannYakabuski/dewdrop-plot/actions/runs/39527047278): **PASS** on that exact commit.
 Later documentation commits require their own CI result; this dated result does not verify later binaries.
+
+## Authorized Web hosting
+
+See [Web Pages deployment and iframe guidance](WEB_PAGES.md). The 2026-11-05 request separately authorizes this game's public Pages workflow and main-branch publication; the website and Android production release are unchanged. Historical Pages-held notes retain their dated scope. Deployment success does not establish device/native services or human gameplay acceptance.
